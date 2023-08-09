@@ -1,4 +1,4 @@
- [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Noto+Sans&size=32&duration=2000&color=F7F7F7&background=5835CC&center=true&vCenter=true&multiline=true&repeat=false&width=845&height=100&lines=J.A.A.Tsimouris;%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%EF%BD%9CComputer+Scientist)](https://git.io/typing-svg) 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Noto+Sans&size=32&duration=2000&color=F7F7F7&background=5835CC&center=true&multiline=true&repeat=false&width=845&height=90&lines=J.A.A.Tsimouris;%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%EF%BD%9CComputer+Scientist)](https://git.io/typing-svg) 
 ![grid-snake](/assets/grid-snake.svg)
 
 <!--THESES & CORRESPONDING PROJECTS-->
