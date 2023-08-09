@@ -23,7 +23,6 @@
 <details><summary><b>🌍｜MARKUP LANGUAGES</b></summary>
 
 ![HTML5](https://img.shields.io/badge/HTML5%20-%235835CC.svg?style=for-the-badge&logo=html5&logoColor=white)![CSS3](https://img.shields.io/badge/CSS-%235835CC.svg?style=for-the-badge&logo=css3&logoColor=white)![XML](https://img.shields.io/badge/xml%20-%235835CC.svg?style=for-the-badge&logo=xml&logoColor=white)![CSS3](https://img.shields.io/badge/CSS-%235835CC.svg?style=for-the-badge&logo=css3&logoColor=white)![Markdown](https://img.shields.io/badge/markdown-%235835CC.svg?style=for-the-badge&logo=markdown&logoColor=white)![shell-script](https://img.shields.io/badge/Shell_Script-%235835CC?style=for-the-badge&logo=gnu-bash&logoColor=white)![bash](https://img.shields.io/badge/bash-%235835CC?style=for-the-badge&logo=gnu-bash&logoColor=white)![powershell](https://img.shields.io/badge/powershell-%235835CC?style=for-the-badge&logo=powershell&logoColor=white)![latex](https://img.shields.io/badge/Latex-%235835CC?style=for-the-badge&logo=latex&logoColor=white)
-<picture><img align="left" src="./assets/software-engineer.apng"></picture>
 </details>
 <!--DATABASES-->
 <details><summary><b>💾｜DATABASES</b></summary>
