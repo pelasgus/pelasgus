@@ -1,0 +1,103 @@
+#+TITLE: D.A.PELASGUS
+#+SUBTITLE: 🧑‍💻｜TECHNOCRAT
+
+[[https://git.io/typing-svg][https://readme-typing-svg.herokuapp.com/?font=Noto+Sans&size=32&duration=2000&color=F7F7F7&background=5835CC&center=true&multiline=true&repeat=false&width=845&height=90&lines=D.A.PELASGUS;%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%EF%BD%9CTECHNOCRAT]]
+[[https://github.com/DAPELASGUS/DAPELASGUS/blob/output/github-contribution-grid-snake.svg][https://github.com/DAPELASGUS/DAPELASGUS/blob/output/github-contribution-grid-snake.svg]]
+
+* 📝｜THESES & CORRESPONDING PROJECTS
+  :PROPERTIES:
+  :VISIBILITY: folded
+  :END:
+
+* 🧰｜HARD SKILLS
+  :PROPERTIES:
+  :VISIBILITY: folded
+  :END:
+
+  * 📚｜CURRENT STACK: SARTORIAL
+    > **SARTORIAL**: *ru**S**t t**A**ilwind su**R**real py**T**h**O**n pe**R**l n**I**x terr**A**form he**L**m*
+
+    [[https://www.rust-lang.org/][https://img.shields.io/badge/Rust-%235835CC?style=for-the-badge&logo=rust&logoColor=white]]
+    [[https://tailwindcss.com/][https://img.shields.io/badge/Tailwind_CSS-%235835CC?style=for-the-badge&logo=tailwind-css&logoColor=white]]
+    [[https://surrealdb.com/][https://img.shields.io/badge/surrealdb-%235835CC.svg?style=for-the-badge&logo=surrealdb&logoColor=white]]
+    [[https://www.python.org/][https://img.shields.io/badge/Python%20-%235835CC.svg?style=for-the-badge&logo=python&logoColor=white]]
+    [[https://www.perl.org/][https://img.shields.io/badge/Perl%20-%235835CC.svg?style=for-the-badge&logo=perl&logoColor=white]]
+    [[https://nixos.org/][https://img.shields.io/badge/nixos%20-%235835CC.svg?style=for-the-badge&logo=nixos&logoColor=white]]
+    [[https://www.terraform.io/][https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white]]
+    [[https://helm.sh/][https://img.shields.io/badge/helm%20-%235835CC.svg?style=for-the-badge&logo=helm&logoColor=white]]
+
+  * 🌍｜LANGUAGES
+    [[https://en.wikipedia.org/wiki/C_(programming_language)][https://img.shields.io/badge/C%20-%235835CC.svg?style=for-the-badge&logo=c&logoColor=white]]
+    [[https://en.wikipedia.org/wiki/C%2B%2B][https://img.shields.io/badge/C++%20-%235835CC.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white]]
+    [[https://golang.org/][https://img.shields.io/badge/Go-%235835CC?style=for-the-badge&logo=go&logoColor=white]]
+    [[https://www.haskell.org/][https://img.shields.io/badge/haskell-%235835CC?style=for-the-badge&logo=haskell&logoColor=white]]
+    [[https://en.wikipedia.org/wiki/Assembly_language][https://img.shields.io/badge/assembly-%235835CC?style=for-the-badge&logo=assembly&logoColor=white]]
+    [[https://kotlinlang.org/][https://img.shields.io/badge/Kotlin-%235835CC?&style=for-the-badge&logo=kotlin&logoColor=white]]
+    [[https://www.scala-lang.org/][https://img.shields.io/badge/Scala-%235835CC?style=for-the-badge&logo=scala&logoColor=white]]
+    [[https://www.java.com/][https://img.shields.io/badge/Java-%235835CC?style=for-the-badge&logo=openjdk&logoColor=white]]
+    [[https://www.typescriptlang.org/][https://img.shields.io/badge/TypeScript-%235835CC?style=for-the-badge&logo=typescript&logoColor=white]]
+    [[https://www.javascript.com/][https://img.shields.io/badge/JavaScript%20-%235835CC.svg?style=for-the-badge&logo=javascript&logoColor=white]]
+    [[https://developer.apple.com/swift/][https://img.shields.io/badge/Swift-%235835CC?style=for-the-badge&logo=swift&logoColor=white]]
+    [[https://www.ruby-lang.org/][https://img.shields.io/badge/Ruby-%235835CC?style=for-the-badge&logo=ruby&logoColor=white]]
+    [[https://www.r-project.org/][https://img.shields.io/badge/R-%235835CC?style=for-the-badge&logo=r&logoColor=white]]
+    [[https://www.lua.org/][https://img.shields.io/badge/Lua-%235835CC?style=for-the-badge&logo=lua&logoColor=white]]
+    [[https://www.php.net/][https://img.shields.io/badge/PHP-%235835CC?style=for-the-badge&logo=php&logoColor=white]]
+
+  * 🌍｜MARKUP LANGUAGES
+    [[https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5][https://img.shields.io/badge/HTML5%20-%235835CC.svg?style=for-the-badge&logo=html5&logoColor=white]]
+    [[https://developer.mozilla.org/en-US/docs/Web/CSS][https://img.shields.io/badge/CSS-%235835CC.svg?style=for-the-badge&logo=css3&logoColor=white]]
+    [[https://en.wikipedia.org/wiki/XML][https://img.shields.io/badge/xml%20-%235835CC.svg?style=for-the-badge&logo=xml&logoColor=white]]
+    [[https://en.wikipedia.org/wiki/Markdown][https://img.shields.io/badge/markdown-%235835CC.svg?style=for-the-badge&logo=markdown&logoColor=white]]
+    [[https://en.wikipedia.org/wiki/Shell_script][https://img.shields.io/badge/Shell_Script-%235835CC?style=for-the-badge&logo=gnu-bash&logoColor=white]]
+    [[https://en.wikipedia.org/wiki/Bash_(Unix_shell)][https://img.shields.io/badge/bash-%235835CC?style=for-the-badge&logo=gnu-bash&logoColor=white]]
+    [[https://en.wikipedia.org/wiki/Powershell][https://img.shields.io/badge/powershell-%235835CC?style=for-the-badge&logo=powershell&logoColor=white]]
+    [[https://www.latex-project.org/][https://img.shields.io/badge/Latex-%235835CC?style=for-the-badge&logo=latex&logoColor=white]]
+
+  * 💾｜DATABASES
+    [[https://etcd.io/][https://img.shields.io/badge/etcd%20-%235835CC.svg?style=for-the-badge&logo=etcd&logoColor=white]]
+    [[https://www.postgresql.org/][https://img.shields.io/badge/PostgreSQL-%235835CC.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white]]
+    [[https://www.mongodb.com/][https://img.shields.io/badge/MongoDB-%235835CC?style=for-the-badge&logo=mongodb&logoColor=white]]
+    [[https://www.mysql.com/][https://img.shields.io/badge/MySQL-%235835CC?style=for-the-badge&logo=mysql&logoColor=white]]
+    [[https://www.sqlite.org/index.html][https://img.shields.io/badge/SQLite-%235835CC?style=for-the-badge&logo=sqlite&logoColor=white]]
+    [[https://cassandra.apache.org/_/index.html][https://img.shields.io/badge/Cassandra-%235835CC?style=for-the-badge&logo=apache%20cassandra&logoColor=white]]
+
+  * 🔩｜FRAMEWORKS
+    [[https://pytorch.org/][https://img.shields.io/badge/pytorch%20-%235835CC.svg?style=for-the-badge&logo=pytorch&logoColor=white]]
+    [[https://keras.io/][https://img.shields.io/badge/Keras%20-%235835CC.svg?style=for-the-badge&logo=Keras&logoColor=white]]
+    [[https://www.tensorflow.org/][https://img.shields.io/badge/TensorFlow%20-%235835CC.svg?style=for-the-badge&logo=TensorFlow&logoColor=white]]
+    [[https://flask.palletsprojects.com/][https://img.shields.io/badge/Flask%20-%235835CC.svg?style=for-the-badge&logo=Flask&logoColor=white]]
+    [[https://www.djangoproject.com/][https://img.shields.io/badge/Django%20-%235835CC.svg?style=for-the-badge&logo=Django&logoColor=white]]
+    [[https://www.fastapi.tiangolo.com/][https://img.shields.io/badge/FastAPI%20-%235835CC.svg?style=for-the-badge&logo=FastAPI&logoColor=white]]
+    [[https://www.rabbitmq.com/][https://img.shields.io/badge/RabbitMQ%20-%235835CC.svg?style=for-the-badge&logo=RabbitMQ&logoColor=white]]
+    [[https://spark.apache.org/][https://img.shields.io/badge/Apache_Spark%20-%235835CC.svg?style=for-the-badge&logo=Apache-Spark&logoColor=white]]
+    [[https://kafka.apache.org/][https://img.shields.io/badge/Apache_Kafka%20-%235835CC.svg?style=for-the-badge&logo=Apache-Kafka&logoColor=white]]
+    [[https://spring.io/projects/spring-framework][https://img.shields.io/badge/Spring_Framework-%235835CC?style=for-the-badge&logo=spring&logoColor=white]]
+    [[https://react.dev/][https://img.shields.io/badge/React-%235835CC?style=for-the-badge&logo=react&logoColor=white]]
+    [[https://angular.io/][https://img.shields.io/badge/Angular-%235835CC?style=for-the-badge&logo=angular&logoColor=white]]
+    [[https://vuejs.org/][https://img.shields.io/badge/Vue.js-%235835CC?style=for-the-badge&logo=vue.js&logoColor=white]]
+    [[https://www.djangoproject.com/][https://img.shields.io/badge/Django-%235835CC?style=for-the-badge&logo=django&logoColor=white]]
+
+  * 🔌｜TOOLS
+    [[https://github.com/git/git][https://img.shields.io/badge/Git-%235835CC.svg?style=for-the-badge&logo=git&logoColor=white]]
+    [[https://github.com/][https://img.shields.io/badge/GitHub-%235835CC.svg?style=for-the-badge&logo=github&logoColor=white]]
+    [[https://gitlab.com/][https://img.shields.io/badge/GitLab-%235835CC.svg?style=for-the-badge&logo=gitlab&logoColor=white]]
+    [[https://about.gitlab.com/topics/ci-cd/][https://img.shields.io/badge/GitLab_CI/CD-%235835CC.svg?style=for-the-badge&logo=gitlab&logoColor=white]]
+    [[https://circleci.com/][https://img.shields.io/badge/CircleCI-%235835CC.svg?style=for-the-badge&logo=circleci&logoColor=white]]
+    [[https://www.docker.com/][https://img.shields.io/badge/Docker-%235835CC.svg?style=for-the-badge&logo=docker&logoColor=white]]
+    [[https://www.vagrantup.com/][https://img.shields.io/badge/Vagrant-%235835CC.svg?style=for-the-badge&logo=vagrant&logoColor=white]]
+    [[https://www.virtualbox.org/][https://img.shields.io/badge/VirtualBox-%235835CC.svg?style=for-the-badge&logo=virtualbox&logoColor=white]]
+    [[https://docs.nvidia.com/cuda/][https://img.shields.io/badge/CUDA-%235835CC.svg?style=for-the-badge&logo=nvidia&logoColor=white]]
+    [[https://jupyter.org/][https://img.shields.io/badge/Jupyter-%235835CC.svg?style=for-the-badge&logo=Jupyter&logoColor=white]]
+    [[https://code.visualstudio.com/][https://img.shields.io/badge/VS_Code-%235835CC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white]]
+    [[https://www.sublimetext.com/][https://img.shields.io/badge/Sublime_Text-%235835CC.svg?style=for-the-badge&logo=sublime-text&logoColor=white]]
+    [[https://www.vim.org/][https://img.shields.io/badge/VIM-%235835CC.svg?style=for-the-badge&logo=vim&logoColor=white]]
+    [[https://neovim.io/][https://img.shields.io/badge/Neovim-%235835CC.svg?style=for-the-badge&logo=neovim&logoColor=white]]
+    [[https://emacs.org/][https://img.shields.io/badge/Emacs-%235835CC.svg?style=for-the-badge&logo=gnu-emacs&logoColor=white]]
+    [[https://www.gnu.org/software/bash/][https://img.shields.io/badge/GNU_Bash-%235835CC.svg?style=for-the-badge&logo=gnu-bash&logoColor=white]]
+    [[https://www.zsh.org/][https://img.shields.io/badge/Zsh-%235835CC.svg?style=for-the-badge&logo=gnu-bash&logoColor=white]]
+
+* 🌐｜CONTACT
+  [[https://github.com/DAPELASGUS][https://img.shields.io/badge/GitHub-DAPELASGUS-5835CC?style=for-the-badge&logo=github&logoColor=white]]
+  [[https://twitter.com/DAPELASGUS][https://img.shields.io/badge/Twitter-%40DAPELASGUS-5835CC?style=for-the-badge&logo=twitter&logoColor=white]]
+  [[https://linkedin.com/in/dapelasgus][https://img.shields.io/badge/LinkedIn-DAPELASGUS-5835CC?style=for-the-badge&logo=linkedin&logoColor=white]]
+  [[https://ko-fi.com/G2G6S2IC][https://ko-fi.com/img/githubbutton_sm.svg]]
