@@ -1,5 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Noto+Sans&size=57&duration=2000&pause=1000&color=F7F7F7&background=5835CC&center=true&multiline=true&repeat=false&width=845&height=75&lines=D.A.PELASGUS+%F0%9F%A7%BF+TECHNOCRAT)](https://git.io/typing-svg)
-![grid-snake](/assets/grid-snake.svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Noto+Sans&size=57&duration=2000&pause=1000&color=F7F7F7&background=5835CC&center=true&multiline=true&repeat=false&width=845&height=75&lines=D.A.PELASGUS+%F0%9F%A7%BF+TECHNOCRAT)](https://pelasgus.software)
 <!--THESES & CORRESPONDING PROJECTS-->
 <details><summary><b>📝｜THESES & CORRESPONDING PROJECTS</b></summary>
 
@@ -9,7 +8,8 @@
 <!--CURRENT STACK-->
 <details><summary><b>📚｜CURRENT STACK</b></summary>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pelasgus&bg_color=00000000&hide_border=true&icon_color=&text_color=&hide_title=true&hide_rank=true&layout=compact)](https://github.com/pelasgus?tab=repositories)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pelasgus&bg_color=00000000&hide_border=true&icon_color=&text_color=&hide_title=true&hide_rank=true&layout=compact&size_weight=0.5&count_weight=0.)](https://github.com/pelasgus?tab=repositories)
+
 [![rust](https://img.shields.io/badge/Rust-%235835CC?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)[![tailwind-css](https://img.shields.io/badge/Tailwind_CSS-%235835CC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)[![SurrealDB](https://img.shields.io/badge/surrealdb-%235835CC.svg?style=for-the-badge&logo=surrealdb&logoColor=white)](https://surrealdb.com/)[![Python](https://img.shields.io/badge/Python%20-%235835CC.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)[![Perl](https://img.shields.io/badge/Perl%20-%235835CC.svg?style=for-the-badge&logo=perl&logoColor=white)](https://www.perl.org/)[![NixOs](https://img.shields.io/badge/nixos%20-%235835CC.svg?style=for-the-badge&logo=nixos&logoColor=white)](https://nixos.org/)[![terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)[![helm](https://img.shields.io/badge/helm%20-%235835CC.svg?style=for-the-badge&logo=helm&logoColor=white)](https://helm.sh/)![lua](https://img.shields.io/badge/Lua-%235835CC?style=for-the-badge&logo=lua&logoColor=white)![lisp](https://img.shields.io/badge/Lisp-%235835CC?style=for-the-badge&logo=lisp&logoColor=white)
 </details>
 <!--LANGUAGES-->
