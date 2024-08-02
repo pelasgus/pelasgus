@@ -9,6 +9,7 @@
 <!--CURRENT STACK-->
 <details><summary><b>📚｜CURRENT STACK</b></summary>
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pelasgus&bg_color=00000000&hide_border=true&icon_color=&text_color=&hide_title=true&hide_rank=true&layout=compact)](https://github.com/pelasgus?tab=repositories)
 [![rust](https://img.shields.io/badge/Rust-%235835CC?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)[![tailwind-css](https://img.shields.io/badge/Tailwind_CSS-%235835CC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)[![SurrealDB](https://img.shields.io/badge/surrealdb-%235835CC.svg?style=for-the-badge&logo=surrealdb&logoColor=white)](https://surrealdb.com/)[![Python](https://img.shields.io/badge/Python%20-%235835CC.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)[![Perl](https://img.shields.io/badge/Perl%20-%235835CC.svg?style=for-the-badge&logo=perl&logoColor=white)](https://www.perl.org/)[![NixOs](https://img.shields.io/badge/nixos%20-%235835CC.svg?style=for-the-badge&logo=nixos&logoColor=white)](https://nixos.org/)[![terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)[![helm](https://img.shields.io/badge/helm%20-%235835CC.svg?style=for-the-badge&logo=helm&logoColor=white)](https://helm.sh/)![lua](https://img.shields.io/badge/Lua-%235835CC?style=for-the-badge&logo=lua&logoColor=white)![lisp](https://img.shields.io/badge/Lisp-%235835CC?style=for-the-badge&logo=lisp&logoColor=white)
 </details>
 <!--LANGUAGES-->
@@ -65,6 +66,8 @@
 ![docker](https://img.shields.io/badge/docker-%235835CC?style=for-the-badge&logo=docker&logoColor=white)
 </details>
 
+<--!EDITORS-->
+<--!TOOLS-->
 ![Git](https://img.shields.io/badge/git-%235835CC.svg?style=for-the-badge&logo=git&logoColor=white)
 
 ![vim](https://img.shields.io/badge/VIM-%235835CC.svg?&style=for-the-badge&logo=vim&logoColor=white)
@@ -95,7 +98,5 @@ FirefoxOS
 </details>
 </details>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pelasgus&bg_color=00000000&hide_border=true&icon_color=&text_color=&hide_title=true&hide_rank=true&layout=compact&size_weight=0.5&count_weight=0.5)](https://github.com/pelasgus?tab=repositories)
-
 ### 🧑‍🤝‍🧑｜SOCIAL
-[![github](https://img.shields.io/badge/GitHub-%235835CC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pelasgus)[![linked-in](https://img.shields.io/badge/LinkedIn-%235835CC?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pelasgus)![kaggle](https://img.shields.io/badge/Kaggle-%235835CC?style=for-the-badge&logo=Kaggle&logoColor=white)![leetcode](https://img.shields.io/badge/-LeetCode-%235835CC?style=for-the-badge&logo=LeetCode&logoColor=white)![[rss](https://img.shields.io/badge/RSS-%235835CC?style=for-the-badge&logo=rss&logoColor=white)](https://rss.pelasgus.software)
+[![github](https://img.shields.io/badge/GitHub-%235835CC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pelasgus)[![linked-in](https://img.shields.io/badge/LinkedIn-%235835CC?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pelasgus)![kaggle](https://img.shields.io/badge/Kaggle-%235835CC?style=for-the-badge&logo=Kaggle&logoColor=white)![leetcode](https://img.shields.io/badge/-LeetCode-%235835CC?style=for-the-badge&logo=LeetCode&logoColor=white)[![rss](https://img.shields.io/badge/RSS-%235835CC?style=for-the-badge&logo=rss&logoColor=white)](https://rss.pelasgus.software)
