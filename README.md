@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Noto+Sans&size=32&duration=2000&color=F7F7F7&background=5835CC&center=true&multiline=true&repeat=false&width=845&height=90&lines=D.A.PELASGUS;%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%EF%BD%9CTECHNOCRAT)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Noto+Sans&size=50&duration=2000&pause=1000&color=F7F7F7&background=5835CC&center=true&vCenter=true&multiline=true&repeat=false&width=845&height=90&lines=D.A.PELASGUS%EF%BD%9CTECHNOCRAT%EF%BD%9C%F0%9F%A7%BF)](https://git.io/typing-svg)
 ![grid-snake](/assets/grid-snake.svg)
 <!--THESES & CORRESPONDING PROJECTS-->
 <details><summary><b>📝｜THESES & CORRESPONDING PROJECTS</b></summary>
