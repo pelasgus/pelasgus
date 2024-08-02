@@ -31,19 +31,71 @@
 
 ![pytorch](https://img.shields.io/badge/pytorch%20-%235835CC.svg?style=for-the-badge&logo=pytorch&logoColor=white)![Keras](https://img.shields.io/badge/Keras%20-%235835CC.svg?style=for-the-badge&logo=Keras&logoColor=white)![tensorflow](https://img.shields.io/badge/TensorFlow-%235835CC?style=for-the-badge&logo=tensorflow&logoColor=white)![zola](https://img.shields.io/badge/Zola-%235835CC?style=for-the-badge&logo=zola&logoColor=white)![tauri](https://img.shields.io/badge/tauri%20-%235835CC.svg?style=for-the-badge&logo=tauri&logoColor=white)![electron](https://img.shields.io/badge/electron%20-%235835CC.svg?style=for-the-badge&logo=electron&logoColor=white)![ts-node](https://img.shields.io/badge/ts--node-%235835CC?style=for-the-badge&logo=ts-node&logoColor=white)![node-js](https://img.shields.io/badge/node.js-%235835CC?style=for-the-badge&logo=node.js&logoColor=white)![hugo](https://img.shields.io/badge/Hugo-%235835CC?style=for-the-badge&logo=hugo&logoColor=white)![ruby-on-rails](https://img.shields.io/badge/Ruby_on_Rails-%235835CC?style=for-the-badge&logo=ruby-on-rails&logoColor=white)![django](https://img.shields.io/badge/Django-%235835CC?style=for-the-badge&logo=django&logoColor=white)![laravel](https://img.shields.io/badge/laravel-%235835CC?style=for-the-badge&logo=laravel&logoColor=white)![jenkins](https://img.shields.io/badge/jenkins%20-%235835CC.svg?style=for-the-badge&logo=jenkins&logoColor=white)
 </details>
-<!--DATABASES-->
+<!--MISCELLANEOUS-->
 <details><summary><b>🧮｜MISCELLANEOUS</b></summary>
 
-![Git](https://img.shields.io/badge/git-%235835CC.svg?style=for-the-badge&logo=git&logoColor=white)![ansible](https://img.shields.io/badge/ansible-%235835CC.svg?style=for-the-badge&logo=ansible&logoColor=white)![kubernetes](https://img.shields.io/badge/kubernetes-%235835CC.svg?style=for-the-badge&logo=kubernetes&logoColor=white)![docker](https://img.shields.io/badge/docker-%235835CC?style=for-the-badge&logo=docker&logoColor=white)![vim](https://img.shields.io/badge/VIM-%235835CC.svg?&style=for-the-badge&logo=vim&logoColor=white)![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-%235835CC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Terminal](https://img.shields.io/badge/Terminal-%235835CC?style=for-the-badge&logo=gnu-bash&logoColor=white)![redis](https://img.shields.io/badge/redis-%235835CC.svg?style=for-the-badge&logo=redis&logoColor=white)![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-%235835CC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)![aws](https://img.shields.io/badge/Amazon_AWS-%235835CC?style=for-the-badge&logo=amazon-aws&logoColor=white)![unreal](https://img.shields.io/badge/unrealengine-%235835CC.svg?style=for-the-badge&logo=unrealengine&logoColor=white)![unity](https://img.shields.io/badge/Unity-%235835CC?style=for-the-badge&logo=unity&logoColor=white)![arduino](https://img.shields.io/badge/Arduino-%235835CC?style=for-the-badge&logo=Arduino&logoColor=white)![esp](https://img.shields.io/badge/espressif-%235835CC?style=for-the-badge&logo=espressif&logoColor=white)![node-red](https://img.shields.io/badge/Node--Red-%235835CC?style=for-the-badge&logo=nodered&logoColor=white)
+<!--HOME AUTOMATION-->
+<details><summary><b>🧮｜HOME AUTOMATION</b></summary>
+
+![arduino](https://img.shields.io/badge/Arduino-%235835CC?style=for-the-badge&logo=Arduino&logoColor=white)
+![node-red](https://img.shields.io/badge/Node--Red-%235835CC?style=for-the-badge&logo=nodered&logoColor=white)
+</details>
+<!--EMBEDDED SYSTEMS-->
+<details><summary><b>🧮｜EMBEDDED SYSTEMS</b></summary>
+  
+![esp](https://img.shields.io/badge/espressif-%235835CC?style=for-the-badge&logo=espressif&logoColor=white)
+</details>
+<!--GAME ENGINES-->
+<details><summary><b>🧮｜GAME ENGINES</b></summary>
+
+![unreal](https://img.shields.io/badge/unrealengine-%235835CC.svg?style=for-the-badge&logo=unrealengine&logoColor=white)
+![unity](https://img.shields.io/badge/Unity-%235835CC?style=for-the-badge&logo=unity&logoColor=white)
+</details>
+
+<!--PLATFORM ENGINEERING-->
+<details><summary><b>🧮｜PLATFORM ENGINEERING</b></summary>
+
+</details>
+
+<!--CLOUD PLATFORMS-->
+<details><summary><b>🧮｜CLOUD PLATFORMS</b></summary>
+
+![ansible](https://img.shields.io/badge/ansible-%235835CC.svg?style=for-the-badge&logo=ansible&logoColor=white)
+![kubernetes](https://img.shields.io/badge/kubernetes-%235835CC.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![docker](https://img.shields.io/badge/docker-%235835CC?style=for-the-badge&logo=docker&logoColor=white)
+</details>
+
+![Git](https://img.shields.io/badge/git-%235835CC.svg?style=for-the-badge&logo=git&logoColor=white)
+
+![vim](https://img.shields.io/badge/VIM-%235835CC.svg?&style=for-the-badge&logo=vim&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-%235835CC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Terminal](https://img.shields.io/badge/Terminal-%235835CC?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![redis](https://img.shields.io/badge/redis-%235835CC.svg?style=for-the-badge&logo=redis&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-%235835CC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![aws](https://img.shields.io/badge/Amazon_AWS-%235835CC?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+
 </details>
 <!--DATABASES-->
 <details><summary><b>👻｜OS</b></summary>
 
-![Linux](https://img.shields.io/badge/Linux-%235835CC?style=for-the-badge&logo=linux&logoColor=white)![alpine](https://img.shields.io/badge/Arch_Linux-%235835CC?style=for-the-badge&logo=arch-linux&logoColor=white)![red-hat](https://img.shields.io/badge/Red%20Hat-%235835CC?style=for-the-badge&logo=redhat&logoColor=white)![Amazon EKS](https://img.shields.io/badge/Amazon_EKS%20-%235835CC.svg?style=for-the-badge&logo=Amazon+EKS&logoColor=white)![macos](https://img.shields.io/badge/mac%20os-%235835CC?style=for-the-badge&logo=apple&logoColor=white)![windows](https://img.shields.io/badge/Windows-%235835CC?style=for-the-badge&logo=windows&logoColor=white)![bsd](https://img.shields.io/badge/BSD-%235835CC.svg?style=for-the-badge&logo=freebsd&logoColor=white)![android](https://img.shields.io/badge/Android-%235835CC?style=for-the-badge&logo=android&logoColor=white)![ios](https://img.shields.io/badge/iOS-%235835CC?style=for-the-badge&logo=ios&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-%235835CC?style=for-the-badge&logo=linux&logoColor=white)
+![alpine](https://img.shields.io/badge/Arch_Linux-%235835CC?style=for-the-badge&logo=arch-linux&logoColor=white)
+![red-hat](https://img.shields.io/badge/Red%20Hat-%235835CC?style=for-the-badge&logo=redhat&logoColor=white)
+Talos
+![Amazon EKS](https://img.shields.io/badge/Amazon_EKS%20-%235835CC.svg?style=for-the-badge&logo=Amazon+EKS&logoColor=white)
+![macos](https://img.shields.io/badge/mac%20os-%235835CC?style=for-the-badge&logo=apple&logoColor=white)
+![windows](https://img.shields.io/badge/Windows-%235835CC?style=for-the-badge&logo=windows&logoColor=white)
+![bsd](https://img.shields.io/badge/BSD-%235835CC.svg?style=for-the-badge&logo=freebsd&logoColor=white)
+![android](https://img.shields.io/badge/Android-%235835CC?style=for-the-badge&logo=android&logoColor=white)
+![ios](https://img.shields.io/badge/iOS-%235835CC?style=for-the-badge&logo=ios&logoColor=white)
+Tizen
+KaiOS
+FirefoxOS
 </details>
 </details>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pelasgus&bg_color=00000000&hide_border=true&icon_color=&text_color=&hide_title=true&hide_rank=true&layout=compact)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pelasgus&bg_color=00000000&hide_border=true&icon_color=&text_color=&hide_title=true&hide_rank=true&layout=compact&size_weight=0.5&count_weight=0.5)](https://github.com/pelasgus?tab=repositories)
 
 ### 🧑‍🤝‍🧑｜SOCIAL
-[![github](https://img.shields.io/badge/GitHub-%235835CC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pelasgus)![linked-in](https://img.shields.io/badge/LinkedIn-%235835CC?style=for-the-badge&logo=linkedin&logoColor=white)![kaggle](https://img.shields.io/badge/Kaggle-%235835CC?style=for-the-badge&logo=Kaggle&logoColor=white)![leetcode](https://img.shields.io/badge/-LeetCode-%235835CC?style=for-the-badge&logo=LeetCode&logoColor=white)![rss](https://img.shields.io/badge/RSS-%235835CC?style=for-the-badge&logo=rss&logoColor=white)
+[![github](https://img.shields.io/badge/GitHub-%235835CC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pelasgus)[![linked-in](https://img.shields.io/badge/LinkedIn-%235835CC?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pelasgus)![kaggle](https://img.shields.io/badge/Kaggle-%235835CC?style=for-the-badge&logo=Kaggle&logoColor=white)![leetcode](https://img.shields.io/badge/-LeetCode-%235835CC?style=for-the-badge&logo=LeetCode&logoColor=white)![[rss](https://img.shields.io/badge/RSS-%235835CC?style=for-the-badge&logo=rss&logoColor=white)](https://rss.pelasgus.software)
