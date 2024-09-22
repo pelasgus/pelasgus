@@ -9,7 +9,7 @@ The following technological fields, ideas, principles, tools and frameworks cons
 <!--CURRENT STACK-->
 <details><summary><b>📚｜CURRENT STACK</b></summary>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pelasgus&bg_color=00000000&hide_border=true&icon_color=&text_color=&hide_title=true&hide_rank=true&layout=compact&size_weight=0.5&count_weight=0.)](https://github.com/pelasgus?tab=repositories)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pelasgus&bg_color=00000000&hide_border=true&icon_color=&text_color=&hide_title=true&hide_rank=true&layout=compact&size_weight=0.5&count_weight=0.5)](https://github.com/pelasgus?tab=repositories)
 
 [![rust](https://img.shields.io/badge/Rust-%235835CC?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)[![tailwind-css](https://img.shields.io/badge/Tailwind_CSS-%235835CC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)![scheme](https://img.shields.io/badge/Scheme-%235835CC?style=for-the-badge&logo=scheme&logoColor=white)![latex](https://img.shields.io/badge/Latex-%235835CC?style=for-the-badge&logo=latex&logoColor=white)![lua](https://img.shields.io/badge/Lua-%235835CC?style=for-the-badge&logo=lua&logoColor=white)![nushell](https://img.shields.io/badge/nushell-%235835CC?style=for-the-badge&logo=nushell&logoColor=white)![org-mode](https://img.shields.io/badge/org-%235835CC?style=for-the-badge&logo=org&logoColor=white)
 
