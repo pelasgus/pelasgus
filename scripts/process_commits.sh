@@ -1,22 +1,27 @@
+# process_commits.sh
+# Author: D.A.Pelasgus
 #!/bin/bash
 
-# Function to process commits and create collapsible dropdowns
+# Function to process commits, displaying dropdowns only for repos with merged PRs
 process_commits() {
   local category="$1"
   local output=""
 
-  for repo_file in commits_*_${category}.txt; do
-    # Convert the safe filename format back to owner/repo format
-    repo=$(echo "$repo_file" | sed -e "s/^commits_//" -e "s/_${category}.txt$//" -e "s|_|/|")
-    
-    # Extract the primary language from repos.txt file, using the original repo format
+  # List all owned repos, highlighting those with merged PRs
+  while IFS= read -r repo; do
     language=$(grep "^$repo|" repos.txt | head -n 1 | cut -d'|' -f2)
-
-    # Format the output as an HTML <details> section with a summary for the repository and a Markdown list of commits
-    output+="<details><summary><strong><a href=\"https://github.com/$repo\">$repo</a> - $language</strong></summary>\n\n"
-    output+="$(cat "$repo_file")\n\n"
-    output+="</details>\n"
-  done
+    repo_safe=$(echo "$repo" | sed 's|/|_|')
+    
+    if [[ -f "commits_${repo_safe}_${category}.txt" ]]; then
+      # Create a dropdown for repos with merged PRs
+      output+="<details><summary><strong><a href=\"https://github.com/$repo\">$repo</a> - $language</strong></summary>\n\n"
+      output+="$(cat "commits_${repo_safe}_${category}.txt")\n\n"
+      output+="</details>\n"
+    else
+      # List the repo without a dropdown
+      output+="<strong><a href=\"https://github.com/$repo\">$repo</a> - $language</strong>\n"
+    fi
+  done < owned_repos.txt
 
   echo -e "$output"
 }

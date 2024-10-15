@@ -2,18 +2,14 @@
 # Author: D.A.Pelasgus
 #!/bin/bash
 source "$(dirname "$0")/fetch_primary_language.sh"
+source "$(dirname "$0")/fetch_all_public_repos.sh"
 
-# Function to fetch all public repositories owned by the user
-fetch_public_repos() {
-  curl -s -H "Authorization: token $GH_TOKEN" \
-    "https://api.github.com/users/$GH_USER/repos?type=public" |
-    jq -r '.[] | .full_name'
-}
-
-# Function to fetch and categorize merged commits for first-party and third-party
+# Function to fetch and categorize merged commits into first-party (owned) projects
 fetch_merged_commits() {
-  # Fetch merged PRs and store in associative array by repo
-  declare -A merged_prs
+  # Create a list of all public repos owned by the user
+  fetch_all_public_repos > owned_repos.txt
+
+  # Check for merged PRs in each owned repository
   curl -s -H "Authorization: token $GH_TOKEN" \
     "https://api.github.com/search/issues?q=is:pr+author:$GH_USER+is:merged" |
     jq -r --arg user "$GH_USER" '
@@ -21,21 +17,12 @@ fetch_merged_commits() {
       "\(.repository_url | sub("https://api.github.com/repos/"; ""))|\(.html_url)|\(.title)"' |
     while IFS="|" read -r repo url title; do
       language=$(fetch_primary_language "$repo")
-      if [[ "$repo" == "$GH_USER/"* ]]; then
-        echo "- [$title]($url)" >> "commits_${repo//\//_}_first.txt"
-        merged_prs["$repo"]=$language
-      else
-        echo "- [$title]($url)" >> "commits_${repo//\//_}_third.txt"
-      fi
-    done
+      # Mark that this repo has a merged PR
+      echo "$repo" >> repos_with_merged_prs.txt
 
-  # Fetch all public repos owned by the user and identify ones without PRs
-  for repo in $(fetch_public_repos); do
-    if [[ -z "${merged_prs[$repo]}" ]]; then
-      language=$(fetch_primary_language "$repo")
-      echo "$repo|$language|no-prs" >> repos_no_prs.txt
-    else
-      echo "$repo|${merged_prs[$repo]}|has-prs" >> repos_with_prs.txt
-    fi
-  done
+      # Prepare a safe filename and store commit details
+      repo_safe=$(echo "$repo" | sed 's|/|_|')
+      echo "- [$title]($url)" >> "commits_${repo_safe}_first.txt"
+      echo "$repo|$language" >> repos.txt
+    done
 }
