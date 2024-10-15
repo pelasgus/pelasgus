@@ -9,6 +9,12 @@ fetch_merged_commits() {
   # Create a list of all public repos owned by the user
   fetch_all_public_repos > owned_repos.txt
 
+  # Iterate over all owned repositories to ensure language is captured for each
+  while IFS= read -r repo; do
+    language=$(fetch_primary_language "$repo")
+    echo "$repo|$language" >> repos.txt
+  done < owned_repos.txt
+
   # Check for merged PRs in each owned repository
   curl -s -H "Authorization: token $GH_TOKEN" \
     "https://api.github.com/search/issues?q=is:pr+author:$GH_USER+is:merged" |
@@ -16,13 +22,9 @@ fetch_merged_commits() {
       .items[] | 
       "\(.repository_url | sub("https://api.github.com/repos/"; ""))|\(.html_url)|\(.title)"' |
     while IFS="|" read -r repo url title; do
-      language=$(fetch_primary_language "$repo")
-      # Mark that this repo has a merged PR
+      # Mark that this repo has a merged PR and store commit details
       echo "$repo" >> repos_with_merged_prs.txt
-
-      # Prepare a safe filename and store commit details
       repo_safe=$(echo "$repo" | sed 's|/|_|')
       echo "- [$title]($url)" >> "commits_${repo_safe}_first.txt"
-      echo "$repo|$language" >> repos.txt
     done
 }
