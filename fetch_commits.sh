@@ -4,6 +4,14 @@
 GH_TOKEN="${GH_TOKEN}"
 GH_USER="${GH_USER}"
 
+# Function to fetch the primary language of a repository
+fetch_primary_language() {
+  local repo="$1"
+  curl -s -H "Authorization: token $GH_TOKEN" \
+    "https://api.github.com/repos/$repo" |
+    jq -r '.language'
+}
+
 # Function to fetch unique contributed repositories
 fetch_contributed_repos() {
   curl -s -H "Authorization: token $GH_TOKEN" \
@@ -24,22 +32,39 @@ fetch_merged_commits() {
       .items[] | 
       "\(.repository_url | sub("https://api.github.com/repos/"; ""))|\(.html_url)|\(.title)"' |
     while IFS="|" read -r repo url title; do
-      owner=$(echo $repo | cut -d/ -f1)
-      if [[ "$owner" == "$GH_USER" ]]; then
-        echo "- [$repo]($url): $title" >> first_party_commits.txt
+      language=$(fetch_primary_language "$repo")
+      if [[ "$repo" == "$GH_USER/"* ]]; then
+        echo "<li><a href=\"$url\">$title</a></li>" >> "commits_${repo//\//_}_first.txt"
       else
-        echo "- [$repo]($url): $title" >> third_party_commits.txt
+        echo "<li><a href=\"$url\">$title</a></li>" >> "commits_${repo//\//_}_third.txt"
       fi
+      echo "$repo|$language" >> repos.txt
     done
 }
 
 # Initialize output files and fetch data
-> first_party_commits.txt
-> third_party_commits.txt
-CONTRIBUTED_REPOS=$(fetch_contributed_repos)
+> repos.txt
+fetch_contributed_repos
 fetch_merged_commits
-FIRST_PARTY_COMMITS=$(cat first_party_commits.txt)
-THIRD_PARTY_COMMITS=$(cat third_party_commits.txt)
+
+# Process commits and group by repository with dropdowns
+process_commits() {
+  local category="$1"
+  local output=""
+
+  for repo_file in commits_*_${category}.txt; do
+    repo=$(echo "$repo_file" | sed -e "s/commits_//" -e "s/_$category.txt//" -e "s/_/\//g")
+    language=$(grep "^$repo|" repos.txt | head -n 1 | cut -d'|' -f2)
+    output+="<details><summary>[$repo](https://github.com/$repo) - $language</summary><ul>"
+    output+="$(cat "$repo_file")"
+    output+="</ul></details>"
+  done
+
+  echo "$output"
+}
+
+FIRST_PARTY_COMMITS=$(process_commits "first")
+THIRD_PARTY_COMMITS=$(process_commits "third")
 
 # Define the README file and markers
 README_FILE="README.md"
@@ -55,14 +80,13 @@ sed -i "/${REPOS_START}/,/${REPOS_END}/{/${REPOS_START}/!{/${REPOS_END}/!d;};}" 
 sed -i "/${FIRST_PARTY_COMMITS_START}/,/${FIRST_PARTY_COMMITS_END}/{/${FIRST_PARTY_COMMITS_START}/!{/${FIRST_PARTY_COMMITS_END}/!d;};}" $README_FILE
 sed -i "/${THIRD_PARTY_COMMITS_START}/,/${THIRD_PARTY_COMMITS_END}/{/${THIRD_PARTY_COMMITS_START}/!{/${THIRD_PARTY_COMMITS_END}/!d;};}" $README_FILE
 
-# Create a new README file with content between markers deleted, then add the new data
+# Update README with new content
 awk -v repos="$CONTRIBUTED_REPOS" \
     -v first_party_commits="$FIRST_PARTY_COMMITS" \
     -v third_party_commits="$THIRD_PARTY_COMMITS" \
     -v repos_start="$REPOS_START" -v repos_end="$REPOS_END" \
     -v first_party_commits_start="$FIRST_PARTY_COMMITS_START" -v first_party_commits_end="$FIRST_PARTY_COMMITS_END" \
     -v third_party_commits_start="$THIRD_PARTY_COMMITS_START" -v third_party_commits_end="$THIRD_PARTY_COMMITS_END" '
-    # Clear content between markers and add new content
     $0 ~ repos_start {print; print repos_start; print repos; while(getline && $0 !~ repos_end){}; print repos_end; next}
     $0 ~ first_party_commits_start {print; print first_party_commits_start; print first_party_commits; while(getline && $0 !~ first_party_commits_end){}; print first_party_commits_end; next}
     $0 ~ third_party_commits_start {print; print third_party_commits_start; print third_party_commits; while(getline && $0 !~ third_party_commits_end){}; print third_party_commits_end; next}
@@ -70,4 +94,4 @@ awk -v repos="$CONTRIBUTED_REPOS" \
 ' $README_FILE > temp_readme && mv temp_readme $README_FILE
 
 # Clean up temporary files
-rm first_party_commits.txt third_party_commits.txt
+rm commits_* repos.txt
