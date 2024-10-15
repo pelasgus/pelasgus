@@ -55,7 +55,19 @@ Contributions to projects that I am the creator of:
 <details><summary><strong><a href="https://github.com/pelasgus/pelasgus">pelasgus/pelasgus</a> - Shell</strong></summary>
 
 - [Actions/readme contributions](https://github.com/pelasgus/pelasgus/pull/9)
+- [Dependabot](https://github.com/pelasgus/pelasgus/pull/8)
+- [Pelasgus patch 1](https://github.com/pelasgus/pelasgus/pull/7)
+- [Update README.md](https://github.com/pelasgus/pelasgus/pull/6)
+- [Update and rename README.org to README.md](https://github.com/pelasgus/pelasgus/pull/5)
+- [Optimising for load times](https://github.com/pelasgus/pelasgus/pull/4)
+- [Optimising readme.md](https://github.com/pelasgus/pelasgus/pull/3)
+- [Update README.md](https://github.com/pelasgus/pelasgus/pull/2)
 - [licensing the project](https://github.com/pelasgus/pelasgus/pull/1)
+
+</details>
+<details><summary><strong><a href="https://github.com/pelasgus/setup/nu">pelasgus/setup/nu</a> - </strong></summary>
+
+- [LICENSE](https://github.com/pelasgus/setup_nu/pull/3)
 
 </details>
 <details><summary><strong><a href="https://github.com/pelasgus/twitch-tv">pelasgus/twitch-tv</a> - Rust</strong></summary>
