@@ -3,6 +3,14 @@
 <details><summary><b>📝｜THESES & CORRESPONDING PROJECTS</b></summary>
 
 </details>
+
+<!--CONTRIBUTIONS-->
+<details><summary><b>💼｜CONTRIBUTIONS TO PROJECTS & ORGANISATIONS</b></summary>
+<!-- Contributed Repos Start -->
+<!-- Contributed Repos End -->
+<!-- Merged Commits Start -->
+<!-- Merged Commits End -->
+</details>
 <details><summary><b>🧰｜HARD SKILLS</b></summary>
 
 The following technological fields, ideas, principles, tools and frameworks constitute the entirety of my professional experience and expertise, culminating in my current comprehensive stack.
