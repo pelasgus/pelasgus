@@ -1,46 +1,16 @@
+# main.sh
+# Author: D.A.Pelasgus
 #!/bin/bash
 
-# Use the environment variables directly from GitHub Actions Secrets
+# Load all function scripts from the scripts directory
+source "$(dirname "$0")/fetch_contributed_repos.sh"
+source "$(dirname "$0")/fetch_primary_language.sh"
+source "$(dirname "$0")/fetch_merged_commits.sh"
+source "$(dirname "$0")/process_commits.sh"
+
+# Environment Variables
 GH_TOKEN="${GH_TOKEN}"
 GH_USER="${GH_USER}"
-
-# Function to fetch unique contributed repositories
-fetch_contributed_repos() {
-  curl -s -H "Authorization: token $GH_TOKEN" \
-    "https://api.github.com/search/issues?q=is:pr+author:$GH_USER" |
-    jq -r '.items[] | .repository_url | sub("https://api.github.com/repos/"; "")' |
-    sort -u |
-    while read repo; do
-      owner=$(echo $repo | cut -d/ -f1)
-      echo "- [$repo](https://github.com/$repo) (Owner: $owner)"
-    done
-}
-
-# Function to fetch the primary language of a repository
-fetch_primary_language() {
-  local repo="$1"
-  curl -s -H "Authorization: token $GH_TOKEN" \
-    "https://api.github.com/repos/$repo" |
-    jq -r '.language'
-}
-
-# Function to fetch and categorize merged commits into first-party and third-party
-fetch_merged_commits() {
-  curl -s -H "Authorization: token $GH_TOKEN" \
-    "https://api.github.com/search/issues?q=is:pr+author:$GH_USER+is:merged" |
-    jq -r --arg user "$GH_USER" '
-      .items[] | 
-      "\(.repository_url | sub("https://api.github.com/repos/"; ""))|\(.html_url)|\(.title)"' |
-    while IFS="|" read -r repo url title; do
-      language=$(fetch_primary_language "$repo")
-      if [[ "$repo" == "$GH_USER/"* ]]; then
-        echo "- [$title]($url)" >> "commits_${repo//\//_}_first.txt"
-      else
-        echo "- [$title]($url)" >> "commits_${repo//\//_}_third.txt"
-      fi
-      echo "$repo|$language" >> repos.txt
-    done
-}
 
 # Initialize output files and fetch data
 > repos.txt
@@ -50,22 +20,7 @@ fetch_merged_commits
 # Prepare the contributed repositories section as a simple Markdown list
 CONTRIBUTED_REPOS=$(cat repos.txt | awk -F'|' '!seen[$1]++ {print "- ["$1"](https://github.com/"$1") (Owner: "gensub("/.*", "", "g", $1)")"}')
 
-# Process commits and group by repository with dropdowns
-process_commits() {
-  local category="$1"
-  local output=""
-
-  for repo_file in commits_*_${category}.txt; do
-    repo=$(echo "$repo_file" | sed -e "s/commits_//" -e "s/_$category.txt//" -e "s/_/\//g")
-    language=$(grep "^$repo|" repos.txt | head -n 1 | cut -d'|' -f2)
-    output+="<details><summary><strong><a href=\"https://github.com/$repo\">$repo</a> - $language</strong></summary>\n\n"
-    output+="$(cat "$repo_file")\n\n"
-    output+="</details>\n"
-  done
-
-  echo -e "$output"
-}
-
+# Process commits and prepare dropdowns
 FIRST_PARTY_COMMITS=$(process_commits "first")
 THIRD_PARTY_COMMITS=$(process_commits "third")
 

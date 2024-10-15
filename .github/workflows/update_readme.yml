@@ -1,6 +1,9 @@
 name: Update README with Contributions
 
 on:
+  push:
+    branches:
+      - main  # Trigger on push to the main branch (adjust as necessary)
   schedule:
     - cron: '0 0 * * *' # Runs daily at midnight
   workflow_dispatch:
@@ -15,13 +18,14 @@ jobs:
       - name: Set Up Environment
         run: sudo apt-get install jq
 
+      - name: Make Scripts Executable
+        run: chmod +x scripts/*.sh
+
       - name: Fetch and Update README with Contributions
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GH_USER: ${{ secrets.GH_USER }}
-        run: |
-          chmod +x fetch_commits.sh
-          ./fetch_commits.sh
+        run: ./scripts/main.sh
 
       - name: Commit and Push Changes
         env:
