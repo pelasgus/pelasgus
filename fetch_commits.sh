@@ -34,14 +34,14 @@ REPOS_END="<!-- Contributed Repos End -->"
 COMMITS_START="<!-- Merged Commits Start -->"
 COMMITS_END="<!-- Merged Commits End -->"
 
-# Update README content
+# Create a new README content with old data cleared from marked sections
 awk -v repos="$CONTRIBUTED_REPOS" -v commits="$MERGED_COMMITS" \
     -v repos_start="$REPOS_START" -v repos_end="$REPOS_END" \
     -v commits_start="$COMMITS_START" -v commits_end="$COMMITS_END" '
     BEGIN {repo_section=0; commit_section=0}
-    $0 ~ repos_start {repo_section=1; print; print repos; next}
-    $0 ~ repos_end {repo_section=0}
-    $0 ~ commits_start {commit_section=1; print; print commits; next}
-    $0 ~ commits_end {commit_section=0}
+    $0 ~ repos_start {repo_section=1; print; print repos_start; print repos; next}
+    $0 ~ repos_end {repo_section=0; print repos_end; next}
+    $0 ~ commits_start {commit_section=1; print; print commits_start; print commits; next}
+    $0 ~ commits_end {commit_section=0; print commits_end; next}
     !repo_section && !commit_section {print}
 ' $README_FILE > temp_readme && mv temp_readme $README_FILE
