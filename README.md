@@ -35,7 +35,24 @@
   
 <!-- First-Party Commits Start -->
 <!-- First-Party Commits Start -->
-<details><summary><strong><a href="https://github.com/pelasgus/pelasgus">pelasgus/pelasgus</a> - </strong></summary>
+<strong><a href="https://github.com/pelasgus/3d">pelasgus/3d</a> - </strong>
+<strong><a href="https://github.com/pelasgus/AVR_ASM_Morse_Code">pelasgus/AVR_ASM_Morse_Code</a> - </strong>
+<strong><a href="https://github.com/pelasgus/cargo-mobile2">pelasgus/cargo-mobile2</a> - </strong>
+<strong><a href="https://github.com/pelasgus/channel">pelasgus/channel</a> - </strong>
+<strong><a href="https://github.com/pelasgus/chimera">pelasgus/chimera</a> - </strong>
+<strong><a href="https://github.com/pelasgus/chimeraos">pelasgus/chimeraos</a> - </strong>
+<strong><a href="https://github.com/pelasgus/create-tauri-app">pelasgus/create-tauri-app</a> - </strong>
+<strong><a href="https://github.com/pelasgus/declerative-shells">pelasgus/declerative-shells</a> - </strong>
+<strong><a href="https://github.com/pelasgus/game-streaming">pelasgus/game-streaming</a> - </strong>
+<strong><a href="https://github.com/pelasgus/HomeAssistantUI">pelasgus/HomeAssistantUI</a> - </strong>
+<strong><a href="https://github.com/pelasgus/keyd">pelasgus/keyd</a> - </strong>
+<strong><a href="https://github.com/pelasgus/leptos">pelasgus/leptos</a> - </strong>
+<strong><a href="https://github.com/pelasgus/logo">pelasgus/logo</a> - </strong>
+<strong><a href="https://github.com/pelasgus/MineCoins">pelasgus/MineCoins</a> - </strong>
+<strong><a href="https://github.com/pelasgus/netboot-img-generator">pelasgus/netboot-img-generator</a> - </strong>
+<strong><a href="https://github.com/pelasgus/nu_guix">pelasgus/nu_guix</a> - </strong>
+<strong><a href="https://github.com/pelasgus/nu_nix">pelasgus/nu_nix</a> - </strong>
+<details><summary><strong><a href="https://github.com/pelasgus/pelasgus">pelasgus/pelasgus</a> - Shell</strong></summary>
 
 - [Actions/readme contributions](https://github.com/pelasgus/pelasgus/pull/9)
 - [Dependabot](https://github.com/pelasgus/pelasgus/pull/8)
@@ -48,22 +65,36 @@
 - [licensing the project](https://github.com/pelasgus/pelasgus/pull/1)
 
 </details>
-<details><summary><strong><a href="https://github.com/pelasgus/setup_nu">pelasgus/setup_nu</a> - </strong></summary>
+<strong><a href="https://github.com/pelasgus/plugins-workspace">pelasgus/plugins-workspace</a> - </strong>
+<strong><a href="https://github.com/pelasgus/plymouth-theme">pelasgus/plymouth-theme</a> - </strong>
+<strong><a href="https://github.com/pelasgus/Proton">pelasgus/Proton</a> - </strong>
+<strong><a href="https://github.com/pelasgus/psl">pelasgus/psl</a> - </strong>
+<strong><a href="https://github.com/pelasgus/rust">pelasgus/rust</a> - </strong>
+<strong><a href="https://github.com/pelasgus/sample-software-architecture">pelasgus/sample-software-architecture</a> - </strong>
+<strong><a href="https://github.com/pelasgus/setup_guix">pelasgus/setup_guix</a> - </strong>
+<details><summary><strong><a href="https://github.com/pelasgus/setup_nu">pelasgus/setup_nu</a> - Rust</strong></summary>
 
 - [LICENSE](https://github.com/pelasgus/setup_nu/pull/3)
 
 </details>
-<details><summary><strong><a href="https://github.com/pelasgus/twitch-tv">pelasgus/twitch-tv</a> - </strong></summary>
+<strong><a href="https://github.com/pelasgus/tauri">pelasgus/tauri</a> - </strong>
+<strong><a href="https://github.com/pelasgus/terminal">pelasgus/terminal</a> - </strong>
+<strong><a href="https://github.com/pelasgus/tex_template">pelasgus/tex_template</a> - </strong>
+<strong><a href="https://github.com/pelasgus/tex_template-cv">pelasgus/tex_template-cv</a> - </strong>
+<strong><a href="https://github.com/pelasgus/tex_template-poster">pelasgus/tex_template-poster</a> - </strong>
+<strong><a href="https://github.com/pelasgus/tex_template-presentation">pelasgus/tex_template-presentation</a> - </strong>
+<details><summary><strong><a href="https://github.com/pelasgus/twitch-tv">pelasgus/twitch-tv</a> - Rust</strong></summary>
 
 - [licensing the project](https://github.com/pelasgus/twitch-tv/pull/1)
 
 </details>
-<details><summary><strong><a href="https://github.com/pelasgus/xilinx">pelasgus/xilinx</a> - </strong></summary>
+<strong><a href="https://github.com/pelasgus/wry">pelasgus/wry</a> - </strong>
+<details><summary><strong><a href="https://github.com/pelasgus/xilinx">pelasgus/xilinx</a> - Nushell</strong></summary>
 
 - [Update test_install.yml](https://github.com/pelasgus/xilinx/pull/1)
 
 </details>
-<details><summary><strong><a href="https://github.com/pelasgus/youtube-tv">pelasgus/youtube-tv</a> - </strong></summary>
+<details><summary><strong><a href="https://github.com/pelasgus/youtube-tv">pelasgus/youtube-tv</a> - Rust</strong></summary>
 
 - [Pelasgus/project restructuring](https://github.com/pelasgus/youtube-tv/pull/10)
 - [fix: window size aspect ratio](https://github.com/pelasgus/youtube-tv/pull/9)
