@@ -5,7 +5,7 @@
 </details>
 
 <!--CONTRIBUTIONS-->
-<details><summary><b>💼｜CONTRIBUTIONS TO PROJECTS & ORGANISATIONS</b></summary>
+<details><summary><b>💼｜CONTRIBUTIONS</b></summary>
 <details><summary><b>🏢｜PROJECTS & ORGANISATIONS</b></summary>  
 
 <!-- Contributed Repos Start -->
@@ -23,7 +23,7 @@
 </details>
 
 <details><summary><b>💼｜MERGED COMMITS</b></summary>
-<details><summary><b>💼｜THIRD PARTY COMMITS</b></summary>  
+<details><summary><b>💼｜THIRD PARTY PUBLIC FOSS PROJECTS</b></summary>  
 
 Contributions to projects that I am not the creator of:
 <!-- Third-Party Commits Start -->
@@ -47,7 +47,7 @@ Contributions to projects that I am not the creator of:
 </details>
 <!-- Third-Party Commits End -->
 </details>
-<details><summary><b>💼｜FIRST PARTY COMMITS</b></summary>  
+<details><summary><b>💼｜PERSONAL FOSS PROJECTS</b></summary>  
 
 Contributions to projects that I am the creator of:
 <!-- First-Party Commits Start -->
