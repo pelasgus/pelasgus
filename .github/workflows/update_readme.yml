@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       - name: Set Up Environment
         run: sudo apt-get install jq
@@ -23,11 +23,13 @@ jobs:
           chmod +x fetch_commits.sh
           ./fetch_commits.sh
 
-      - name: Commit Changes
+      - name: Commit and Push Changes
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase
           git add README.md
           git commit -m "Update README with contributions" || echo "No changes to commit"
-          git push
-
+          git push -u origin main
