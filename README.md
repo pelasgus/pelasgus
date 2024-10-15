@@ -9,6 +9,7 @@
 <details><summary><b>🏢｜PROJECTS & ORGANISATIONS</b></summary>  
 
   <!-- Contributed Repos Start -->
+<!-- Contributed Repos Start -->
 - [ChimeraOS/chimera](https://github.com/ChimeraOS/chimera) (Owner: ChimeraOS)
 - [ChimeraOS/chimeraos](https://github.com/ChimeraOS/chimeraos) (Owner: ChimeraOS)
 - [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton) (Owner: ValveSoftware)
@@ -30,6 +31,7 @@
 
 <details><summary><b>💼｜MERGED COMMITS</b></summary>
   
+<!-- Merged Commits Start -->
 <!-- Merged Commits Start -->
 - [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus/pull/9): Actions/readme contributions
 - [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus/pull/8): Dependabot
