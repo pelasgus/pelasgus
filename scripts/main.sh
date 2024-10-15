@@ -12,6 +12,12 @@ source "$(dirname "$0")/process_commits.sh"
 GH_TOKEN="${GH_TOKEN}"
 GH_USER="${GH_USER}"
 
+# Check if necessary environment variables are set
+if [ -z "$GH_TOKEN" ] || [ -z "$GH_USER" ]; then
+  echo "Error: GH_TOKEN and GH_USER must be set as environment variables."
+  exit 1
+fi
+
 # Initialize output files and fetch data
 > repos.txt
 CONTRIBUTED_REPOS=$(fetch_contributed_repos)
@@ -20,11 +26,11 @@ fetch_merged_commits
 # Prepare the contributed repositories section as a simple Markdown list
 CONTRIBUTED_REPOS=$(cat repos.txt | awk -F'|' '!seen[$1]++ {print "- ["$1"](https://github.com/"$1") (Owner: "gensub("/.*", "", "g", $1)")"}')
 
-# Process commits and prepare dropdowns
+# Process commits and prepare dropdowns for first-party and third-party
 FIRST_PARTY_COMMITS=$(process_commits "first")
 THIRD_PARTY_COMMITS=$(process_commits "third")
 
-# Define the README file and markers (README located one directory up)
+# Define the path to the README file and markers
 README_FILE="../README.md"
 REPOS_START="<!-- Contributed Repos Start -->"
 REPOS_END="<!-- Contributed Repos End -->"
@@ -33,27 +39,23 @@ FIRST_PARTY_COMMITS_END="<!-- First-Party Commits End -->"
 THIRD_PARTY_COMMITS_START="<!-- Third-Party Commits Start -->"
 THIRD_PARTY_COMMITS_END="<!-- Third-Party Commits End -->"
 
-# Function to enforce marker uniqueness and clear content between them
-ensure_marker_uniqueness_and_clear_content() {
-  local start_marker="$1"
-  local end_marker="$2"
-  local content="$3"
+# Ensure each marker appears only once by removing any extra occurrences
+sed -i "/${REPOS_START}/,/${REPOS_END}/{/${REPOS_START}/!{/${REPOS_END}/!d;};}" $README_FILE
+sed -i "/${FIRST_PARTY_COMMITS_START}/,/${FIRST_PARTY_COMMITS_END}/{/${FIRST_PARTY_COMMITS_START}/!{/${FIRST_PARTY_COMMITS_END}/!d;};}" $README_FILE
+sed -i "/${THIRD_PARTY_COMMITS_START}/,/${THIRD_PARTY_COMMITS_END}/{/${THIRD_PARTY_COMMITS_START}/!{/${THIRD_PARTY_COMMITS_END}/!d;};}" $README_FILE
 
-  # Remove any existing markers and their content
-  sed -i "/${start_marker}/,/${end_marker}/{/${start_marker}/!{/${end_marker}/!d;};}" "$README_FILE"
-
-  # Ensure markers appear only once and add new content between them
-  awk -v content="$content" \
-      -v start_marker="$start_marker" -v end_marker="$end_marker" '
-      $0 ~ start_marker {print; print start_marker; print content; while(getline && $0 !~ end_marker){}; print end_marker; next}
-      {print}
-  ' "$README_FILE" > temp_readme && mv temp_readme "$README_FILE"
-}
-
-# Clear and update content between each marker set
-ensure_marker_uniqueness_and_clear_content "$REPOS_START" "$REPOS_END" "$CONTRIBUTED_REPOS"
-ensure_marker_uniqueness_and_clear_content "$FIRST_PARTY_COMMITS_START" "$FIRST_PARTY_COMMITS_END" "$FIRST_PARTY_COMMITS"
-ensure_marker_uniqueness_and_clear_content "$THIRD_PARTY_COMMITS_START" "$THIRD_PARTY_COMMITS_END" "$THIRD_PARTY_COMMITS"
+# Update README with new content using awk to insert the fetched data
+awk -v repos="$CONTRIBUTED_REPOS" \
+    -v first_party_commits="$FIRST_PARTY_COMMITS" \
+    -v third_party_commits="$THIRD_PARTY_COMMITS" \
+    -v repos_start="$REPOS_START" -v repos_end="$REPOS_END" \
+    -v first_party_commits_start="$FIRST_PARTY_COMMITS_START" -v first_party_commits_end="$FIRST_PARTY_COMMITS_END" \
+    -v third_party_commits_start="$THIRD_PARTY_COMMITS_START" -v third_party_commits_end="$THIRD_PARTY_COMMITS_END" '
+    $0 ~ repos_start {print; print repos_start; print repos; while(getline && $0 !~ repos_end){}; print repos_end; next}
+    $0 ~ first_party_commits_start {print; print first_party_commits_start; print first_party_commits; while(getline && $0 !~ first_party_commits_end){}; print first_party_commits_end; next}
+    $0 ~ third_party_commits_start {print; print third_party_commits_start; print third_party_commits; while(getline && $0 !~ third_party_commits_end){}; print third_party_commits_end; next}
+    {print}
+' $README_FILE > temp_readme && mv temp_readme $README_FILE
 
 # Clean up temporary files
-rm commits_* repos.txt
+rm -f commits_* repos.txt
