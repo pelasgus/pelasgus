@@ -1,6 +1,5 @@
 # fetch_commits.sh
 # Author: D.A.Pelasgus
-
 #!/bin/bash
 
 # Use the environment variables directly from GitHub Actions Secrets
@@ -36,17 +35,15 @@ fetch_merged_commits() {
     done
 }
 
-# Initialize output files
+# Initialize output files and fetch data
 > first_party_commits.txt
 > third_party_commits.txt
-
-# Fetch contributed repos and categorize merged commits
 CONTRIBUTED_REPOS=$(fetch_contributed_repos)
 fetch_merged_commits
 FIRST_PARTY_COMMITS=$(cat first_party_commits.txt)
 THIRD_PARTY_COMMITS=$(cat third_party_commits.txt)
 
-# Update README.md
+# Define the README file and markers
 README_FILE="README.md"
 REPOS_START="<!-- Contributed Repos Start -->"
 REPOS_END="<!-- Contributed Repos End -->"
@@ -55,13 +52,14 @@ FIRST_PARTY_COMMITS_END="<!-- First-Party Commits End -->"
 THIRD_PARTY_COMMITS_START="<!-- Third-Party Commits Start -->"
 THIRD_PARTY_COMMITS_END="<!-- Third-Party Commits End -->"
 
-# Create a new README content with old data cleared from marked sections
+# Replace content between markers in README.md
 awk -v repos="$CONTRIBUTED_REPOS" \
     -v first_party_commits="$FIRST_PARTY_COMMITS" \
     -v third_party_commits="$THIRD_PARTY_COMMITS" \
     -v repos_start="$REPOS_START" -v repos_end="$REPOS_END" \
     -v first_party_commits_start="$FIRST_PARTY_COMMITS_START" -v first_party_commits_end="$FIRST_PARTY_COMMITS_END" \
     -v third_party_commits_start="$THIRD_PARTY_COMMITS_START" -v third_party_commits_end="$THIRD_PARTY_COMMITS_END" '
+    # Flag sections for clearing and replacement
     BEGIN {repo_section=0; first_party_section=0; third_party_section=0}
     $0 ~ repos_start {repo_section=1; print; print repos_start; print repos; next}
     $0 ~ repos_end {repo_section=0; print repos_end; next}
@@ -69,8 +67,9 @@ awk -v repos="$CONTRIBUTED_REPOS" \
     $0 ~ first_party_commits_end {first_party_section=0; print first_party_commits_end; next}
     $0 ~ third_party_commits_start {third_party_section=1; print; print third_party_commits_start; print third_party_commits; next}
     $0 ~ third_party_commits_end {third_party_section=0; print third_party_commits_end; next}
+    # Skip any old content within sections, allowing only new content to be inserted
     !repo_section && !first_party_section && !third_party_section {print}
 ' $README_FILE > temp_readme && mv temp_readme $README_FILE
 
-# Cleanup temporary files
+# Clean up temporary files
 rm first_party_commits.txt third_party_commits.txt
