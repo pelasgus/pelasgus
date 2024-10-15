@@ -13,13 +13,13 @@ process_commits() {
     repo_safe=$(echo "$repo" | sed 's|/|_|')
     
     if [[ -f "commits_${repo_safe}_${category}.txt" ]]; then
-      # Create a dropdown for repos with merged PRs
+      # Create a dropdown for repos with merged PRs using HTML formatting
       output+="<details><summary><strong><a href=\"https://github.com/$repo\">$repo</a> - $language</strong></summary>\n\n"
       output+="$(cat "commits_${repo_safe}_${category}.txt")\n\n"
       output+="</details>\n"
     else
-      # List the repo without a dropdown
-      output+="<strong><a href=\"https://github.com/$repo\">$repo</a> - $language</strong>\n"
+      # List the repo using Markdown formatting
+      output+="- [$repo](https://github.com/$repo) - $language\n"
     fi
   done < owned_repos.txt
 
