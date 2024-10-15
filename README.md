@@ -12,19 +12,19 @@
 
 <!-- Third-Party Commits Start -->
 <!-- Third-Party Commits Start -->
-<details><summary><strong><a href="https://github.com/ChimeraOS/chimera">ChimeraOS/chimera</a> - Python</strong></summary>
+<details><summary><strong><a href="https://github.com/ChimeraOS/chimera">ChimeraOS/chimera</a> - </strong></summary>
 
 - [Dependabot](https://github.com/ChimeraOS/chimera/pull/317)
 
 </details>
-<details><summary><strong><a href="https://github.com/ChimeraOS/chimeraos">ChimeraOS/chimeraos</a> - Shell</strong></summary>
+<details><summary><strong><a href="https://github.com/ChimeraOS/chimeraos">ChimeraOS/chimeraos</a> - </strong></summary>
 
 - [Dependabot](https://github.com/ChimeraOS/chimeraos/pull/1027)
 - [Update README.md](https://github.com/ChimeraOS/chimeraos/pull/1023)
 - [Fix Emoji Dispaly Error](https://github.com/ChimeraOS/chimeraos/pull/723)
 
 </details>
-<details><summary><strong><a href="https://github.com/tauri-apps/wry">tauri-apps/wry</a> - Rust</strong></summary>
+<details><summary><strong><a href="https://github.com/tauri-apps/wry">tauri-apps/wry</a> - </strong></summary>
 
 - [docs: shells for declarative package managers (guix and nix)](https://github.com/tauri-apps/wry/pull/1378)
 
@@ -35,7 +35,7 @@
   
 <!-- First-Party Commits Start -->
 <!-- First-Party Commits Start -->
-<details><summary><strong><a href="https://github.com/pelasgus/pelasgus">pelasgus/pelasgus</a> - Shell</strong></summary>
+<details><summary><strong><a href="https://github.com/pelasgus/pelasgus">pelasgus/pelasgus</a> - </strong></summary>
 
 - [Actions/readme contributions](https://github.com/pelasgus/pelasgus/pull/9)
 - [Dependabot](https://github.com/pelasgus/pelasgus/pull/8)
@@ -48,22 +48,22 @@
 - [licensing the project](https://github.com/pelasgus/pelasgus/pull/1)
 
 </details>
-<details><summary><strong><a href="https://github.com/pelasgus/setup_nu">pelasgus/setup_nu</a> - Rust</strong></summary>
+<details><summary><strong><a href="https://github.com/pelasgus/setup_nu">pelasgus/setup_nu</a> - </strong></summary>
 
 - [LICENSE](https://github.com/pelasgus/setup_nu/pull/3)
 
 </details>
-<details><summary><strong><a href="https://github.com/pelasgus/twitch-tv">pelasgus/twitch-tv</a> - Rust</strong></summary>
+<details><summary><strong><a href="https://github.com/pelasgus/twitch-tv">pelasgus/twitch-tv</a> - </strong></summary>
 
 - [licensing the project](https://github.com/pelasgus/twitch-tv/pull/1)
 
 </details>
-<details><summary><strong><a href="https://github.com/pelasgus/xilinx">pelasgus/xilinx</a> - Nushell</strong></summary>
+<details><summary><strong><a href="https://github.com/pelasgus/xilinx">pelasgus/xilinx</a> - </strong></summary>
 
 - [Update test_install.yml](https://github.com/pelasgus/xilinx/pull/1)
 
 </details>
-<details><summary><strong><a href="https://github.com/pelasgus/youtube-tv">pelasgus/youtube-tv</a> - Rust</strong></summary>
+<details><summary><strong><a href="https://github.com/pelasgus/youtube-tv">pelasgus/youtube-tv</a> - </strong></summary>
 
 - [Pelasgus/project restructuring](https://github.com/pelasgus/youtube-tv/pull/10)
 - [fix: window size aspect ratio](https://github.com/pelasgus/youtube-tv/pull/9)
