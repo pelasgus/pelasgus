@@ -34,9 +34,9 @@ fetch_merged_commits() {
     while IFS="|" read -r repo url title; do
       language=$(fetch_primary_language "$repo")
       if [[ "$repo" == "$GH_USER/"* ]]; then
-        echo "<li><a href=\"$url\">$title</a></li>" >> "commits_${repo//\//_}_first.txt"
+        echo "- [$title]($url)" >> "commits_${repo//\//_}_first.txt"
       else
-        echo "<li><a href=\"$url\">$title</a></li>" >> "commits_${repo//\//_}_third.txt"
+        echo "- [$title]($url)" >> "commits_${repo//\//_}_third.txt"
       fi
       echo "$repo|$language" >> repos.txt
     done
@@ -55,12 +55,12 @@ process_commits() {
   for repo_file in commits_*_${category}.txt; do
     repo=$(echo "$repo_file" | sed -e "s/commits_//" -e "s/_$category.txt//" -e "s/_/\//g")
     language=$(grep "^$repo|" repos.txt | head -n 1 | cut -d'|' -f2)
-    output+="<details><summary>[$repo](https://github.com/$repo) - $language</summary><ul>"
-    output+="$(cat "$repo_file")"
-    output+="</ul></details>"
+    output+="<details><summary><strong><a href=\"https://github.com/$repo\">$repo</a> - $language</strong></summary>\n\n"
+    output+="$(cat "$repo_file")\n\n"
+    output+="</details>\n"
   done
 
-  echo "$output"
+  echo -e "$output"
 }
 
 FIRST_PARTY_COMMITS=$(process_commits "first")
