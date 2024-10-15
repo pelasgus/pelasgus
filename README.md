@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Noto+Sans&size=57&duration=2000&pause=1000&color=F7F7F7&background=5835CC&center=true&multiline=true&repeat=false&width=845&height=75&lines=D.A.PELASGUS+%F0%9F%A7%BF+TECHNOCRAT)](https://pelasgus.software)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Cinzel&weight=500&size=52&duration=2000&pause=1000&color=F7F7F7&background=5835CC&center=true&multiline=true&repeat=false&width=845&height=75&lines=D.A.PELASGUS+%F0%9F%A7%BF+TECHNOCRAT)](https://pelasgus.xyz)
 <!--THESES & CORRESPONDING PROJECTS-->
 <details><summary><b>📝｜THESES & CORRESPONDING PROJECTS</b></summary>
 
