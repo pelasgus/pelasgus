@@ -50,26 +50,18 @@ FIRST_PARTY_COMMITS_END="<!-- First-Party Commits End -->"
 THIRD_PARTY_COMMITS_START="<!-- Third-Party Commits Start -->"
 THIRD_PARTY_COMMITS_END="<!-- Third-Party Commits End -->"
 
-# Replace content between markers in README.md
+# Create a new README file with content between markers deleted, then add the new data
 awk -v repos="$CONTRIBUTED_REPOS" \
     -v first_party_commits="$FIRST_PARTY_COMMITS" \
     -v third_party_commits="$THIRD_PARTY_COMMITS" \
     -v repos_start="$REPOS_START" -v repos_end="$REPOS_END" \
     -v first_party_commits_start="$FIRST_PARTY_COMMITS_START" -v first_party_commits_end="$FIRST_PARTY_COMMITS_END" \
     -v third_party_commits_start="$THIRD_PARTY_COMMITS_START" -v third_party_commits_end="$THIRD_PARTY_COMMITS_END" '
-    # Flag sections for clearing and replacement
-    BEGIN {repo_section=0; first_party_section=0; third_party_section=0}
-    $0 ~ repos_start {repo_section=1; print; print repos_start; print repos; next}
-    $0 ~ repos_end {repo_section=0; print repos_end; next}
-    $0 ~ first_party_commits_start {first_party_section=1; print; print first_party_commits_start; print first_party_commits; next}
-    $0 ~ first_party_commits_end {first_party_section=0; print first_party_commits_end; next}
-    $0 ~ third_party_commits_start {third_party_section=1; print; print third_party_commits_start; print third_party_commits; next}
-    $0 ~ third_party_commits_end {third_party_section=0; print third_party_commits_end; next}
-    # Skip any old content within sections, allowing only new content to be inserted
-    repo_section && $0 ~ repos_end {repo_section=0; next}
-    first_party_section && $0 ~ first_party_commits_end {first_party_section=0; next}
-    third_party_section && $0 ~ third_party_commits_end {third_party_section=0; next}
-    !repo_section && !first_party_section && !third_party_section {print}
+    # Clear content between markers and add new content
+    $0 ~ repos_start {print; print repos_start; print repos; while(getline && $0 !~ repos_end){}; print repos_end; next}
+    $0 ~ first_party_commits_start {print; print first_party_commits_start; print first_party_commits; while(getline && $0 !~ first_party_commits_end){}; print first_party_commits_end; next}
+    $0 ~ third_party_commits_start {print; print third_party_commits_start; print third_party_commits; while(getline && $0 !~ third_party_commits_end){}; print third_party_commits_end; next}
+    {print}
 ' $README_FILE > temp_readme && mv temp_readme $README_FILE
 
 # Clean up temporary files
