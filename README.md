@@ -35,73 +35,7 @@
   
 <!-- First-Party Commits Start -->
 <!-- First-Party Commits Start -->
-- [pelasgus/AVR_ASM_Morse_Code](https://github.com/pelasgus/AVR_ASM_Morse_Code) - 
 
-- [pelasgus/channel](https://github.com/pelasgus/channel) - 
-
-- [pelasgus/declerative-shells](https://github.com/pelasgus/declerative-shells) - 
-
-- [pelasgus/logo](https://github.com/pelasgus/logo) - 
-
-- [pelasgus/nu_guix](https://github.com/pelasgus/nu_guix) - 
-
-- [pelasgus/nu_nix](https://github.com/pelasgus/nu_nix) - 
-
-<details><summary><strong><a href="https://github.com/pelasgus/pelasgus">pelasgus/pelasgus</a> - Shell</strong></summary>
-
-- [Actions/readme contributions](https://github.com/pelasgus/pelasgus/pull/9)
-- [Dependabot](https://github.com/pelasgus/pelasgus/pull/8)
-- [Pelasgus patch 1](https://github.com/pelasgus/pelasgus/pull/7)
-- [Update README.md](https://github.com/pelasgus/pelasgus/pull/6)
-- [Update and rename README.org to README.md](https://github.com/pelasgus/pelasgus/pull/5)
-- [Optimising for load times](https://github.com/pelasgus/pelasgus/pull/4)
-- [Optimising readme.md](https://github.com/pelasgus/pelasgus/pull/3)
-- [Update README.md](https://github.com/pelasgus/pelasgus/pull/2)
-- [licensing the project](https://github.com/pelasgus/pelasgus/pull/1)
-
-</details>
-
-- [pelasgus/plymouth-theme](https://github.com/pelasgus/plymouth-theme) - 
-
-- [pelasgus/psl](https://github.com/pelasgus/psl) - 
-
-- [pelasgus/sample-software-architecture](https://github.com/pelasgus/sample-software-architecture) - 
-
-- [pelasgus/setup_guix](https://github.com/pelasgus/setup_guix) - 
-
-<details><summary><strong><a href="https://github.com/pelasgus/setup_nu">pelasgus/setup_nu</a> - Rust</strong></summary>
-
-- [LICENSE](https://github.com/pelasgus/setup_nu/pull/3)
-
-</details>
-
-- [pelasgus/tex_template](https://github.com/pelasgus/tex_template) - 
-
-- [pelasgus/tex_template-cv](https://github.com/pelasgus/tex_template-cv) - 
-
-- [pelasgus/tex_template-poster](https://github.com/pelasgus/tex_template-poster) - 
-
-- [pelasgus/tex_template-presentation](https://github.com/pelasgus/tex_template-presentation) - 
-
-<details><summary><strong><a href="https://github.com/pelasgus/twitch-tv">pelasgus/twitch-tv</a> - Rust</strong></summary>
-
-- [licensing the project](https://github.com/pelasgus/twitch-tv/pull/1)
-
-</details>
-
-<details><summary><strong><a href="https://github.com/pelasgus/xilinx">pelasgus/xilinx</a> - Nushell</strong></summary>
-
-- [Update test_install.yml](https://github.com/pelasgus/xilinx/pull/1)
-
-</details>
-
-<details><summary><strong><a href="https://github.com/pelasgus/youtube-tv">pelasgus/youtube-tv</a> - Rust</strong></summary>
-
-- [Pelasgus/project restructuring](https://github.com/pelasgus/youtube-tv/pull/10)
-- [fix: window size aspect ratio](https://github.com/pelasgus/youtube-tv/pull/9)
-- [licencing the project](https://github.com/pelasgus/youtube-tv/pull/4)
-
-</details>
 <!-- First-Party Commits End -->
 </details>
 
