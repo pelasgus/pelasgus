@@ -65,7 +65,11 @@ Contributions to projects that I am the creator of:
 - [licensing the project](https://github.com/pelasgus/pelasgus/pull/1)
 
 </details>
+<details><summary><strong><a href="https://github.com/pelasgus/setup/nu">pelasgus/setup/nu</a> - </strong></summary>
 
+- [LICENSE](https://github.com/pelasgus/setup_nu/pull/3)
+
+</details>
 <details><summary><strong><a href="https://github.com/pelasgus/twitch-tv">pelasgus/twitch-tv</a> - Rust</strong></summary>
 
 - [licensing the project](https://github.com/pelasgus/twitch-tv/pull/1)
