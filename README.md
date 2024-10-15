@@ -10,7 +10,14 @@
 
 <!-- Contributed Repos Start -->
 <!-- Contributed Repos Start -->
-
+- [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus) (Owner: pelasgus)
+- [pelasgus/youtube-tv](https://github.com/pelasgus/youtube-tv) (Owner: pelasgus)
+- [tauri-apps/wry](https://github.com/tauri-apps/wry) (Owner: tauri-apps)
+- [ChimeraOS/chimera](https://github.com/ChimeraOS/chimera) (Owner: ChimeraOS)
+- [ChimeraOS/chimeraos](https://github.com/ChimeraOS/chimeraos) (Owner: ChimeraOS)
+- [pelasgus/setup_nu](https://github.com/pelasgus/setup_nu) (Owner: pelasgus)
+- [pelasgus/xilinx](https://github.com/pelasgus/xilinx) (Owner: pelasgus)
+- [pelasgus/twitch-tv](https://github.com/pelasgus/twitch-tv) (Owner: pelasgus)
 <!-- Contributed Repos End -->
 
 </details>
