@@ -1,4 +1,10 @@
+# main.sh
+# Author: D.A.Pelasgus
 #!/bin/bash
+
+# Get the absolute path of the root directory
+BASE_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+README_FILE="$BASE_DIR/README.md"
 
 # Load all function scripts from the scripts directory
 source "$(dirname "$0")/fetch_contributed_repos.sh"
@@ -24,8 +30,7 @@ fetch_merged_commits
 # Process commits for first-party (owned) projects and generate dropdowns for those with merged PRs
 FIRST_PARTY_COMMITS=$(process_commits "first")
 
-# Define the path to the README file and markers
-README_FILE="../README.md"
+# Define markers in the README file
 FIRST_PARTY_COMMITS_START="<!-- First-Party Commits Start -->"
 FIRST_PARTY_COMMITS_END="<!-- First-Party Commits End -->"
 
