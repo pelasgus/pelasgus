@@ -35,17 +35,17 @@
   
 <!-- First-Party Commits Start -->
 <!-- First-Party Commits Start -->
-- [pelasgus/AVR_ASM_Morse_Code](https://github.com/pelasgus/AVR_ASM_Morse_Code) - Assembly
+- [pelasgus/AVR_ASM_Morse_Code](https://github.com/pelasgus/AVR_ASM_Morse_Code) - 
 
-- [pelasgus/channel](https://github.com/pelasgus/channel) - Scheme
+- [pelasgus/channel](https://github.com/pelasgus/channel) - 
 
-- [pelasgus/declerative-shells](https://github.com/pelasgus/declerative-shells) - Nix
+- [pelasgus/declerative-shells](https://github.com/pelasgus/declerative-shells) - 
 
-- [pelasgus/logo](https://github.com/pelasgus/logo) - TeX
+- [pelasgus/logo](https://github.com/pelasgus/logo) - 
 
-- [pelasgus/nu_guix](https://github.com/pelasgus/nu_guix) - null
+- [pelasgus/nu_guix](https://github.com/pelasgus/nu_guix) - 
 
-- [pelasgus/nu_nix](https://github.com/pelasgus/nu_nix) - null
+- [pelasgus/nu_nix](https://github.com/pelasgus/nu_nix) - 
 
 <details><summary><strong><a href="https://github.com/pelasgus/pelasgus">pelasgus/pelasgus</a> - Shell</strong></summary>
 
@@ -61,13 +61,13 @@
 
 </details>
 
-- [pelasgus/plymouth-theme](https://github.com/pelasgus/plymouth-theme) - null
+- [pelasgus/plymouth-theme](https://github.com/pelasgus/plymouth-theme) - 
 
-- [pelasgus/psl](https://github.com/pelasgus/psl) - null
+- [pelasgus/psl](https://github.com/pelasgus/psl) - 
 
-- [pelasgus/sample-software-architecture](https://github.com/pelasgus/sample-software-architecture) - null
+- [pelasgus/sample-software-architecture](https://github.com/pelasgus/sample-software-architecture) - 
 
-- [pelasgus/setup_guix](https://github.com/pelasgus/setup_guix) - Nushell
+- [pelasgus/setup_guix](https://github.com/pelasgus/setup_guix) - 
 
 <details><summary><strong><a href="https://github.com/pelasgus/setup_nu">pelasgus/setup_nu</a> - Rust</strong></summary>
 
@@ -75,13 +75,13 @@
 
 </details>
 
-- [pelasgus/tex_template](https://github.com/pelasgus/tex_template) - TeX
+- [pelasgus/tex_template](https://github.com/pelasgus/tex_template) - 
 
-- [pelasgus/tex_template-cv](https://github.com/pelasgus/tex_template-cv) - null
+- [pelasgus/tex_template-cv](https://github.com/pelasgus/tex_template-cv) - 
 
-- [pelasgus/tex_template-poster](https://github.com/pelasgus/tex_template-poster) - null
+- [pelasgus/tex_template-poster](https://github.com/pelasgus/tex_template-poster) - 
 
-- [pelasgus/tex_template-presentation](https://github.com/pelasgus/tex_template-presentation) - null
+- [pelasgus/tex_template-presentation](https://github.com/pelasgus/tex_template-presentation) - 
 
 <details><summary><strong><a href="https://github.com/pelasgus/twitch-tv">pelasgus/twitch-tv</a> - Rust</strong></summary>
 
