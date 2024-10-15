@@ -35,35 +35,13 @@
   
 <!-- First-Party Commits Start -->
 <!-- First-Party Commits Start -->
-- [pelasgus/3d](https://github.com/pelasgus/3d) - Python
-
 - [pelasgus/AVR_ASM_Morse_Code](https://github.com/pelasgus/AVR_ASM_Morse_Code) - Assembly
-
-- [pelasgus/cargo-mobile2](https://github.com/pelasgus/cargo-mobile2) - null
 
 - [pelasgus/channel](https://github.com/pelasgus/channel) - Scheme
 
-- [pelasgus/chimera](https://github.com/pelasgus/chimera) - null
-
-- [pelasgus/chimeraos](https://github.com/pelasgus/chimeraos) - Shell
-
-- [pelasgus/create-tauri-app](https://github.com/pelasgus/create-tauri-app) - null
-
 - [pelasgus/declerative-shells](https://github.com/pelasgus/declerative-shells) - Nix
 
-- [pelasgus/game-streaming](https://github.com/pelasgus/game-streaming) - null
-
-- [pelasgus/HomeAssistantUI](https://github.com/pelasgus/HomeAssistantUI) - CSS
-
-- [pelasgus/keyd](https://github.com/pelasgus/keyd) - null
-
-- [pelasgus/leptos](https://github.com/pelasgus/leptos) - null
-
 - [pelasgus/logo](https://github.com/pelasgus/logo) - TeX
-
-- [pelasgus/MineCoins](https://github.com/pelasgus/MineCoins) - null
-
-- [pelasgus/netboot-img-generator](https://github.com/pelasgus/netboot-img-generator) - null
 
 - [pelasgus/nu_guix](https://github.com/pelasgus/nu_guix) - null
 
@@ -83,15 +61,9 @@
 
 </details>
 
-- [pelasgus/plugins-workspace](https://github.com/pelasgus/plugins-workspace) - null
-
 - [pelasgus/plymouth-theme](https://github.com/pelasgus/plymouth-theme) - null
 
-- [pelasgus/Proton](https://github.com/pelasgus/Proton) - null
-
 - [pelasgus/psl](https://github.com/pelasgus/psl) - null
-
-- [pelasgus/rust](https://github.com/pelasgus/rust) - null
 
 - [pelasgus/sample-software-architecture](https://github.com/pelasgus/sample-software-architecture) - null
 
@@ -102,10 +74,6 @@
 - [LICENSE](https://github.com/pelasgus/setup_nu/pull/3)
 
 </details>
-
-- [pelasgus/tauri](https://github.com/pelasgus/tauri) - null
-
-- [pelasgus/terminal](https://github.com/pelasgus/terminal) - Rust
 
 - [pelasgus/tex_template](https://github.com/pelasgus/tex_template) - TeX
 
@@ -120,8 +88,6 @@
 - [licensing the project](https://github.com/pelasgus/twitch-tv/pull/1)
 
 </details>
-
-- [pelasgus/wry](https://github.com/pelasgus/wry) - null
 
 <details><summary><strong><a href="https://github.com/pelasgus/xilinx">pelasgus/xilinx</a> - Nushell</strong></summary>
 
