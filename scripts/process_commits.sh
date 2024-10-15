@@ -8,8 +8,13 @@ process_commits() {
   local output=""
 
   for repo_file in commits_*_${category}.txt; do
-    repo=$(echo "$repo_file" | sed -e "s/commits_//" -e "s/_$category.txt//" -e "s/_/\//g")
+    # Reverse the transformation, changing only the underscores that were meant to replace slashes back to slashes
+    repo=$(echo "$repo_file" | sed -e "s/commits_//" -e "s/_$category.txt$//" -e "s/__/__/g" -e "s/_/\//g")
+    
+    # Extract the primary language from repos.txt file
     language=$(grep "^$repo|" repos.txt | head -n 1 | cut -d'|' -f2)
+    
+    # Format the output as an HTML <details> section with a summary for the repository and a Markdown list of commits
     output+="<details><summary><strong><a href=\"https://github.com/$repo\">$repo</a> - $language</strong></summary>\n\n"
     output+="$(cat "$repo_file")\n\n"
     output+="</details>\n"
@@ -17,4 +22,3 @@ process_commits() {
 
   echo -e "$output"
 }
-
