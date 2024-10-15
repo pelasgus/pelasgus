@@ -1,5 +1,3 @@
-# fetch_commits.sh
-# Author: D.A.Pelasgus
 #!/bin/bash
 
 # Use the environment variables directly from GitHub Actions Secrets
@@ -68,6 +66,9 @@ awk -v repos="$CONTRIBUTED_REPOS" \
     $0 ~ third_party_commits_start {third_party_section=1; print; print third_party_commits_start; print third_party_commits; next}
     $0 ~ third_party_commits_end {third_party_section=0; print third_party_commits_end; next}
     # Skip any old content within sections, allowing only new content to be inserted
+    repo_section && $0 ~ repos_end {repo_section=0; next}
+    first_party_section && $0 ~ first_party_commits_end {first_party_section=0; next}
+    third_party_section && $0 ~ third_party_commits_end {third_party_section=0; next}
     !repo_section && !first_party_section && !third_party_section {print}
 ' $README_FILE > temp_readme && mv temp_readme $README_FILE
 
