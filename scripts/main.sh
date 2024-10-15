@@ -24,8 +24,8 @@ CONTRIBUTED_REPOS=$(cat repos.txt | awk -F'|' '!seen[$1]++ {print "- ["$1"](http
 FIRST_PARTY_COMMITS=$(process_commits "first")
 THIRD_PARTY_COMMITS=$(process_commits "third")
 
-# Define the README file and markers
-README_FILE="README.md"
+# Define the README file and markers (README located one directory up)
+README_FILE="../README.md"
 REPOS_START="<!-- Contributed Repos Start -->"
 REPOS_END="<!-- Contributed Repos End -->"
 FIRST_PARTY_COMMITS_START="<!-- First-Party Commits Start -->"
@@ -40,14 +40,14 @@ ensure_marker_uniqueness_and_clear_content() {
   local content="$3"
 
   # Remove any existing markers and their content
-  sed -i "/${start_marker}/,/${end_marker}/{/${start_marker}/!{/${end_marker}/!d;};}" $README_FILE
+  sed -i "/${start_marker}/,/${end_marker}/{/${start_marker}/!{/${end_marker}/!d;};}" "$README_FILE"
 
   # Ensure markers appear only once and add new content between them
   awk -v content="$content" \
       -v start_marker="$start_marker" -v end_marker="$end_marker" '
       $0 ~ start_marker {print; print start_marker; print content; while(getline && $0 !~ end_marker){}; print end_marker; next}
       {print}
-  ' $README_FILE > temp_readme && mv temp_readme $README_FILE
+  ' "$README_FILE" > temp_readme && mv temp_readme "$README_FILE"
 }
 
 # Clear and update content between each marker set
