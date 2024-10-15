@@ -10,22 +10,7 @@
 
 <!-- Contributed Repos Start -->
 <!-- Contributed Repos Start -->
-- [ChimeraOS/chimera](https://github.com/ChimeraOS/chimera) (Owner: ChimeraOS)
-- [ChimeraOS/chimeraos](https://github.com/ChimeraOS/chimeraos) (Owner: ChimeraOS)
-- [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton) (Owner: ValveSoftware)
-- [leptos-rs/leptos](https://github.com/leptos-rs/leptos) (Owner: leptos-rs)
-- [librephoenix/nixos-config](https://github.com/librephoenix/nixos-config) (Owner: librephoenix)
-- [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus) (Owner: pelasgus)
-- [pelasgus/setup_nu](https://github.com/pelasgus/setup_nu) (Owner: pelasgus)
-- [pelasgus/xilinx](https://github.com/pelasgus/xilinx) (Owner: pelasgus)
-- [pelasgus/youtube-tv](https://github.com/pelasgus/youtube-tv) (Owner: pelasgus)
-- [rust-lang/rust](https://github.com/rust-lang/rust) (Owner: rust-lang)
-- [rvaiya/keyd](https://github.com/rvaiya/keyd) (Owner: rvaiya)
-- [tauri-apps/cargo-mobile2](https://github.com/tauri-apps/cargo-mobile2) (Owner: tauri-apps)
-- [tauri-apps/create-tauri-app](https://github.com/tauri-apps/create-tauri-app) (Owner: tauri-apps)
-- [tauri-apps/plugins-workspace](https://github.com/tauri-apps/plugins-workspace) (Owner: tauri-apps)
-- [tauri-apps/tauri](https://github.com/tauri-apps/tauri) (Owner: tauri-apps)
-- [tauri-apps/wry](https://github.com/tauri-apps/wry) (Owner: tauri-apps)
+
 <!-- Contributed Repos End -->
 
 </details>
@@ -36,11 +21,9 @@
 Contributions to projects that I am not the creator of:
 <!-- Third-Party Commits Start -->
 <!-- Third-Party Commits Start -->
-- [tauri-apps/wry](https://github.com/tauri-apps/wry/pull/1378): docs: shells for declarative package managers (guix and nix)
-- [ChimeraOS/chimera](https://github.com/ChimeraOS/chimera/pull/317): Dependabot
-- [ChimeraOS/chimeraos](https://github.com/ChimeraOS/chimeraos/pull/1027): Dependabot
-- [ChimeraOS/chimeraos](https://github.com/ChimeraOS/chimeraos/pull/1023): Update README.md
-- [ChimeraOS/chimeraos](https://github.com/ChimeraOS/chimeraos/pull/723): Fix Emoji Dispaly Error
+<details><summary>[ChimeraOS/chimera](https://github.com/ChimeraOS/chimera) - Python</summary><ul><li><a href="https://github.com/ChimeraOS/chimera/pull/317">Dependabot</a></li></ul></details><details><summary>[ChimeraOS/chimeraos](https://github.com/ChimeraOS/chimeraos) - Shell</summary><ul><li><a href="https://github.com/ChimeraOS/chimeraos/pull/1027">Dependabot</a></li>
+<li><a href="https://github.com/ChimeraOS/chimeraos/pull/1023">Update README.md</a></li>
+<li><a href="https://github.com/ChimeraOS/chimeraos/pull/723">Fix Emoji Dispaly Error</a></li></ul></details><details><summary>[tauri-apps/wry](https://github.com/tauri-apps/wry) - Rust</summary><ul><li><a href="https://github.com/tauri-apps/wry/pull/1378">docs: shells for declarative package managers (guix and nix)</a></li></ul></details>
 <!-- Third-Party Commits End -->
 </details>
 <details><summary><b>💼｜FIRST PARTY COMMITS</b></summary>  
@@ -48,21 +31,17 @@ Contributions to projects that I am not the creator of:
 Contributions to projects that I am the creator of:
 <!-- First-Party Commits Start -->
 <!-- First-Party Commits Start -->
-- [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus/pull/9): Actions/readme contributions
-- [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus/pull/8): Dependabot
-- [pelasgus/youtube-tv](https://github.com/pelasgus/youtube-tv/pull/10): Pelasgus/project restructuring
-- [pelasgus/setup_nu](https://github.com/pelasgus/setup_nu/pull/3): LICENSE
-- [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus/pull/7): Pelasgus patch 1
-- [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus/pull/6): Update README.md
-- [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus/pull/5): Update and rename README.org to README.md
-- [pelasgus/xilinx](https://github.com/pelasgus/xilinx/pull/1): Update test_install.yml
-- [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus/pull/4): Optimising for load times
-- [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus/pull/3): Optimising readme.md
-- [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus/pull/2): Update README.md
-- [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus/pull/1): licensing the project
-- [pelasgus/youtube-tv](https://github.com/pelasgus/youtube-tv/pull/9): fix: window size aspect ratio
-- [pelasgus/twitch-tv](https://github.com/pelasgus/twitch-tv/pull/1): licensing the project
-- [pelasgus/youtube-tv](https://github.com/pelasgus/youtube-tv/pull/4): licencing the project
+<details><summary>[pelasgus/pelasgus](https://github.com/pelasgus/pelasgus) - Shell</summary><ul><li><a href="https://github.com/pelasgus/pelasgus/pull/9">Actions/readme contributions</a></li>
+<li><a href="https://github.com/pelasgus/pelasgus/pull/8">Dependabot</a></li>
+<li><a href="https://github.com/pelasgus/pelasgus/pull/7">Pelasgus patch 1</a></li>
+<li><a href="https://github.com/pelasgus/pelasgus/pull/6">Update README.md</a></li>
+<li><a href="https://github.com/pelasgus/pelasgus/pull/5">Update and rename README.org to README.md</a></li>
+<li><a href="https://github.com/pelasgus/pelasgus/pull/4">Optimising for load times</a></li>
+<li><a href="https://github.com/pelasgus/pelasgus/pull/3">Optimising readme.md</a></li>
+<li><a href="https://github.com/pelasgus/pelasgus/pull/2">Update README.md</a></li>
+<li><a href="https://github.com/pelasgus/pelasgus/pull/1">licensing the project</a></li></ul></details><details><summary>[pelasgus/setup/nu](https://github.com/pelasgus/setup/nu) - </summary><ul><li><a href="https://github.com/pelasgus/setup_nu/pull/3">LICENSE</a></li></ul></details><details><summary>[pelasgus/twitch-tv](https://github.com/pelasgus/twitch-tv) - Rust</summary><ul><li><a href="https://github.com/pelasgus/twitch-tv/pull/1">licensing the project</a></li></ul></details><details><summary>[pelasgus/xilinx](https://github.com/pelasgus/xilinx) - Nushell</summary><ul><li><a href="https://github.com/pelasgus/xilinx/pull/1">Update test_install.yml</a></li></ul></details><details><summary>[pelasgus/youtube-tv](https://github.com/pelasgus/youtube-tv) - Rust</summary><ul><li><a href="https://github.com/pelasgus/youtube-tv/pull/10">Pelasgus/project restructuring</a></li>
+<li><a href="https://github.com/pelasgus/youtube-tv/pull/9">fix: window size aspect ratio</a></li>
+<li><a href="https://github.com/pelasgus/youtube-tv/pull/4">licencing the project</a></li></ul></details>
 <!-- First-Party Commits End -->
 </details>
 
