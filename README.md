@@ -8,7 +8,6 @@
 <details><summary><b>💼｜CONTRIBUTIONS TO PROJECTS & ORGANISATIONS</b></summary>
 <details><summary><b>🏢｜PROJECTS & ORGANISATIONS</b></summary>  
 
-  <!-- Contributed Repos Start -->
 <!-- Contributed Repos Start -->
 - [ChimeraOS/chimera](https://github.com/ChimeraOS/chimera) (Owner: ChimeraOS)
 - [ChimeraOS/chimeraos](https://github.com/ChimeraOS/chimeraos) (Owner: ChimeraOS)
@@ -27,12 +26,14 @@
 - [tauri-apps/tauri](https://github.com/tauri-apps/tauri) (Owner: tauri-apps)
 - [tauri-apps/wry](https://github.com/tauri-apps/wry) (Owner: tauri-apps)
 <!-- Contributed Repos End -->
+
 </details>
 
 <details><summary><b>💼｜MERGED COMMITS</b></summary>
-  
-<!-- Merged Commits Start -->
-<!-- Merged Commits Start -->
+<details><summary><b>💼｜THIRD PARTY COMMITS</b></summary>  
+
+Contributions to projects that I am not the creator of:
+<!-- Third-Party Commits Start -->
 - [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus/pull/9): Actions/readme contributions
 - [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus/pull/8): Dependabot
 - [pelasgus/youtube-tv](https://github.com/pelasgus/youtube-tv/pull/10): Pelasgus/project restructuring
@@ -53,7 +54,16 @@
 - [pelasgus/youtube-tv](https://github.com/pelasgus/youtube-tv/pull/9): fix: window size aspect ratio
 - [pelasgus/twitch-tv](https://github.com/pelasgus/twitch-tv/pull/1): licensing the project
 - [pelasgus/youtube-tv](https://github.com/pelasgus/youtube-tv/pull/4): licencing the project
-<!-- Merged Commits End -->
+<!-- Third-Party Commits End -->
+</details>
+<details><summary><b>💼｜FIRST PARTY COMMITS</b></summary>  
+
+Contributions to projects that I am the creator of:
+<!-- First-Party Commits Start -->
+
+<!-- First-Party Commits End -->
+</details>
+
 </details>
 </details>
 <details><summary><b>🧰｜HARD SKILLS</b></summary>
