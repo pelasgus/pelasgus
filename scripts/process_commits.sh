@@ -8,10 +8,10 @@ process_commits() {
   local output=""
 
   for repo_file in commits_*_${category}.txt; do
-    # Extract the original repository name by reversing only the initial filename transformation
-    repo=$(echo "$repo_file" | sed -e "s/commits_//" -e "s/_$category.txt//" -e "s/_/\//g")
+    # Extract the original repository name by removing only the prefix and suffix related to file categorization
+    repo=$(echo "$repo_file" | sed -e "s/^commits_//" -e "s/_${category}.txt$//")
 
-    # Extract the primary language from repos.txt file based on the original repo name with underscores intact
+    # Extract the primary language from repos.txt file, maintaining the original repo name as is
     language=$(grep "^$repo|" repos.txt | head -n 1 | cut -d'|' -f2)
 
     # Format the output as an HTML <details> section with a summary for the repository and a Markdown list of commits
