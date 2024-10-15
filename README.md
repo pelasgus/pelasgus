@@ -33,7 +33,13 @@ Contributions to projects that I am not the creator of:
 - [Dependabot](https://github.com/ChimeraOS/chimera/pull/317)
 
 </details>
+<details><summary><strong><a href="https://github.com/ChimeraOS/chimeraos">ChimeraOS/chimeraos</a> - Shell</strong></summary>
 
+- [Dependabot](https://github.com/ChimeraOS/chimeraos/pull/1027)
+- [Update README.md](https://github.com/ChimeraOS/chimeraos/pull/1023)
+- [Fix Emoji Dispaly Error](https://github.com/ChimeraOS/chimeraos/pull/723)
+
+</details>
 <details><summary><strong><a href="https://github.com/tauri-apps/wry">tauri-apps/wry</a> - Rust</strong></summary>
 
 - [docs: shells for declarative package managers (guix and nix)](https://github.com/tauri-apps/wry/pull/1378)
