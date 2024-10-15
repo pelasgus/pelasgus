@@ -12,8 +12,8 @@ fetch_merged_commits() {
       "\(.repository_url | sub("https://api.github.com/repos/"; ""))|\(.html_url)|\(.title)"' |
     while IFS="|" read -r repo url title; do
       language=$(fetch_primary_language "$repo")
-      # Replace slashes with underscores to safely create filenames
-      repo_safe=$(echo "$repo" | sed 's/\//_/g')
+      # Replace only the first / to create a valid filename while keeping repo names intact
+      repo_safe=$(echo "$repo" | sed 's|/|_|')
       if [[ "$repo" == "$GH_USER/"* ]]; then
         echo "- [$title]($url)" >> "commits_${repo_safe}_first.txt"
       else
