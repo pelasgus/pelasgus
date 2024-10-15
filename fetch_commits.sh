@@ -50,6 +50,11 @@ FIRST_PARTY_COMMITS_END="<!-- First-Party Commits End -->"
 THIRD_PARTY_COMMITS_START="<!-- Third-Party Commits Start -->"
 THIRD_PARTY_COMMITS_END="<!-- Third-Party Commits End -->"
 
+# Ensure each marker appears only once by removing any extra occurrences
+sed -i "/${REPOS_START}/,/${REPOS_END}/{/${REPOS_START}/!{/${REPOS_END}/!d;};}" $README_FILE
+sed -i "/${FIRST_PARTY_COMMITS_START}/,/${FIRST_PARTY_COMMITS_END}/{/${FIRST_PARTY_COMMITS_START}/!{/${FIRST_PARTY_COMMITS_END}/!d;};}" $README_FILE
+sed -i "/${THIRD_PARTY_COMMITS_START}/,/${THIRD_PARTY_COMMITS_END}/{/${THIRD_PARTY_COMMITS_START}/!{/${THIRD_PARTY_COMMITS_END}/!d;};}" $README_FILE
+
 # Create a new README file with content between markers deleted, then add the new data
 awk -v repos="$CONTRIBUTED_REPOS" \
     -v first_party_commits="$FIRST_PARTY_COMMITS" \
