@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Define the base directory and README file path relative to this script
-BASE_DIR="$(dirname "$(dirname "$0")")"
-README_FILE="$BASE_DIR/README.md"
-
 # Load all function scripts from the scripts directory
 source "$(dirname "$0")/fetch_contributed_repos.sh"
 source "$(dirname "$0")/fetch_primary_language.sh"
@@ -22,17 +18,17 @@ fi
 
 # Initialize output files and fetch data
 > repos.txt
+> repos_with_prs.txt
+> repos_no_prs.txt
 CONTRIBUTED_REPOS=$(fetch_contributed_repos)
 fetch_merged_commits
 
-# Prepare the contributed repositories section as a simple Markdown list
-CONTRIBUTED_REPOS=$(cat repos.txt | awk -F'|' '!seen[$1]++ {print "- ["$1"](https://github.com/"$1") (Owner: "gensub("/.*", "", "g", $1)")"}')
-
-# Process commits and prepare dropdowns for first-party and third-party
-FIRST_PARTY_COMMITS=$(process_commits "first")
+# Process first-party commits with and without PRs
+FIRST_PARTY_COMMITS=$(process_first_party_commits)
 THIRD_PARTY_COMMITS=$(process_commits "third")
 
-# Define markers in the README file
+# Define the path to the README file and markers
+README_FILE="../README.md"
 REPOS_START="<!-- Contributed Repos Start -->"
 REPOS_END="<!-- Contributed Repos End -->"
 FIRST_PARTY_COMMITS_START="<!-- First-Party Commits Start -->"
@@ -41,9 +37,9 @@ THIRD_PARTY_COMMITS_START="<!-- Third-Party Commits Start -->"
 THIRD_PARTY_COMMITS_END="<!-- Third-Party Commits End -->"
 
 # Ensure each marker appears only once by removing any extra occurrences
-sed -i "/${REPOS_START}/,/${REPOS_END}/{/${REPOS_START}/!{/${REPOS_END}/!d;};}" "$README_FILE"
-sed -i "/${FIRST_PARTY_COMMITS_START}/,/${FIRST_PARTY_COMMITS_END}/{/${FIRST_PARTY_COMMITS_START}/!{/${FIRST_PARTY_COMMITS_END}/!d;};}" "$README_FILE"
-sed -i "/${THIRD_PARTY_COMMITS_START}/,/${THIRD_PARTY_COMMITS_END}/{/${THIRD_PARTY_COMMITS_START}/!{/${THIRD_PARTY_COMMITS_END}/!d;};}" "$README_FILE"
+sed -i "/${REPOS_START}/,/${REPOS_END}/{/${REPOS_START}/!{/${REPOS_END}/!d;};}" $README_FILE
+sed -i "/${FIRST_PARTY_COMMITS_START}/,/${FIRST_PARTY_COMMITS_END}/{/${FIRST_PARTY_COMMITS_START}/!{/${FIRST_PARTY_COMMITS_END}/!d;};}" $README_FILE
+sed -i "/${THIRD_PARTY_COMMITS_START}/,/${THIRD_PARTY_COMMITS_END}/{/${THIRD_PARTY_COMMITS_START}/!{/${THIRD_PARTY_COMMITS_END}/!d;};}" $README_FILE
 
 # Update README with new content using awk to insert the fetched data
 awk -v repos="$CONTRIBUTED_REPOS" \
@@ -56,7 +52,7 @@ awk -v repos="$CONTRIBUTED_REPOS" \
     $0 ~ first_party_commits_start {print; print first_party_commits_start; print first_party_commits; while(getline && $0 !~ first_party_commits_end){}; print first_party_commits_end; next}
     $0 ~ third_party_commits_start {print; print third_party_commits_start; print third_party_commits; while(getline && $0 !~ third_party_commits_end){}; print third_party_commits_end; next}
     {print}
-' "$README_FILE" > temp_readme && mv temp_readme "$README_FILE"
+' $README_FILE > temp_readme && mv temp_readme $README_FILE
 
 # Clean up temporary files
-rm -f commits_* repos.txt
+rm -f commits_* repos.txt repos_with_prs.txt repos_no_prs.txt
