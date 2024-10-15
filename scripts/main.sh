@@ -29,7 +29,7 @@ FIRST_PARTY_COMMITS=$(process_commits "first")
 THIRD_PARTY_COMMITS=$(process_commits "third")
 
 # Define the path to the README file and markers
-README_FILE="../README.md"
+README_FILE="../scripts/README.md"
 REPOS_START="<!-- Contributed Repos Start -->"
 REPOS_END="<!-- Contributed Repos End -->"
 FIRST_PARTY_COMMITS_START="<!-- First-Party Commits Start -->"
