@@ -1,4 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Cinzel&weight=500&size=52&duration=2000&pause=1000&color=F7F7F7&background=5835CC&center=true&multiline=true&repeat=false&width=845&height=75&lines=D.A.PELASGUS+%F0%9F%A7%BF+TECHNOCRAT)](https://pelasgus.xyz)
+
 <!--THESES & CORRESPONDING PROJECTS-->
 <details><summary><b>📝｜THESES & CORRESPONDING PROJECTS</b></summary>
 
@@ -6,92 +7,25 @@
 
 <!--CONTRIBUTIONS-->
 <details><summary><b>💼｜CONTRIBUTIONS</b></summary>
-<details><summary><b>🏢｜PROJECTS & ORGANISATIONS</b></summary>  
 
-<!-- Contributed Repos Start -->
-<!-- Contributed Repos Start -->
-- [pelasgus/pelasgus](https://github.com/pelasgus/pelasgus) (Owner: pelasgus)
-- [pelasgus/youtube-tv](https://github.com/pelasgus/youtube-tv) (Owner: pelasgus)
-- [tauri-apps/wry](https://github.com/tauri-apps/wry) (Owner: tauri-apps)
-- [ChimeraOS/chimera](https://github.com/ChimeraOS/chimera) (Owner: ChimeraOS)
-- [ChimeraOS/chimeraos](https://github.com/ChimeraOS/chimeraos) (Owner: ChimeraOS)
-- [pelasgus/setup_nu](https://github.com/pelasgus/setup_nu) (Owner: pelasgus)
-- [pelasgus/xilinx](https://github.com/pelasgus/xilinx) (Owner: pelasgus)
-- [pelasgus/twitch-tv](https://github.com/pelasgus/twitch-tv) (Owner: pelasgus)
-<!-- Contributed Repos End -->
-
-</details>
-
-<details><summary><b>💼｜MERGED COMMITS</b></summary>
 <details><summary><b>💼｜THIRD PARTY PUBLIC FOSS PROJECTS</b></summary>  
 
-Contributions to projects that I am not the creator of:
 <!-- Third-Party Commits Start -->
-<!-- Third-Party Commits Start -->
-<details><summary><strong><a href="https://github.com/ChimeraOS/chimera">ChimeraOS/chimera</a> - Python</strong></summary>
 
-- [Dependabot](https://github.com/ChimeraOS/chimera/pull/317)
-
-</details>
-<details><summary><strong><a href="https://github.com/ChimeraOS/chimeraos">ChimeraOS/chimeraos</a> - Shell</strong></summary>
-
-- [Dependabot](https://github.com/ChimeraOS/chimeraos/pull/1027)
-- [Update README.md](https://github.com/ChimeraOS/chimeraos/pull/1023)
-- [Fix Emoji Dispaly Error](https://github.com/ChimeraOS/chimeraos/pull/723)
-
-</details>
-<details><summary><strong><a href="https://github.com/tauri-apps/wry">tauri-apps/wry</a> - Rust</strong></summary>
-
-- [docs: shells for declarative package managers (guix and nix)](https://github.com/tauri-apps/wry/pull/1378)
-
-</details>
 <!-- Third-Party Commits End -->
 </details>
 <details><summary><b>💼｜PERSONAL FOSS PROJECTS</b></summary>  
-
-Contributions to projects that I am the creator of:
+  
 <!-- First-Party Commits Start -->
-<!-- First-Party Commits Start -->
-<details><summary><strong><a href="https://github.com/pelasgus/pelasgus">pelasgus/pelasgus</a> - Shell</strong></summary>
 
-- [Actions/readme contributions](https://github.com/pelasgus/pelasgus/pull/9)
-- [Dependabot](https://github.com/pelasgus/pelasgus/pull/8)
-- [Pelasgus patch 1](https://github.com/pelasgus/pelasgus/pull/7)
-- [Update README.md](https://github.com/pelasgus/pelasgus/pull/6)
-- [Update and rename README.org to README.md](https://github.com/pelasgus/pelasgus/pull/5)
-- [Optimising for load times](https://github.com/pelasgus/pelasgus/pull/4)
-- [Optimising readme.md](https://github.com/pelasgus/pelasgus/pull/3)
-- [Update README.md](https://github.com/pelasgus/pelasgus/pull/2)
-- [licensing the project](https://github.com/pelasgus/pelasgus/pull/1)
 
-</details>
-<details><summary><strong><a href="https://github.com/pelasgus/setup_nu">pelasgus/setup_nu</a> - Rust</strong></summary>
-
-- [LICENSE](https://github.com/pelasgus/setup_nu/pull/3)
-
-</details>
-<details><summary><strong><a href="https://github.com/pelasgus/twitch-tv">pelasgus/twitch-tv</a> - Rust</strong></summary>
-
-- [licensing the project](https://github.com/pelasgus/twitch-tv/pull/1)
-
-</details>
-<details><summary><strong><a href="https://github.com/pelasgus/xilinx">pelasgus/xilinx</a> - Nushell</strong></summary>
-
-- [Update test_install.yml](https://github.com/pelasgus/xilinx/pull/1)
-
-</details>
-<details><summary><strong><a href="https://github.com/pelasgus/youtube-tv">pelasgus/youtube-tv</a> - Rust</strong></summary>
-
-- [Pelasgus/project restructuring](https://github.com/pelasgus/youtube-tv/pull/10)
-- [fix: window size aspect ratio](https://github.com/pelasgus/youtube-tv/pull/9)
-- [licencing the project](https://github.com/pelasgus/youtube-tv/pull/4)
-
-</details>
 <!-- First-Party Commits End -->
 </details>
 
 </details>
-</details>
+
+
+<!-- HARD SKILLS -->
 <details><summary><b>🧰｜HARD SKILLS</b></summary>
 
 The following technological fields, ideas, principles, tools and frameworks constitute the entirety of my professional experience and expertise, culminating in my current comprehensive stack.
@@ -200,6 +134,9 @@ The following technological fields, ideas, principles, tools and frameworks cons
 [![FirefoxOS](https://img.shields.io/badge/FirefoxOS-%235835CC?style=for-the-badge&logo=firefoxos&logoColor=white)](https://web.archive.org/web/20130704175938/http://www.mozilla.org/en-US/firefox/os/)
 </details>
 </details>
+
+> [!IMPORTANT]  
+> This file gets updated daily to reflect the most recent statistics. Only merged PRs are displayed.
 
 ### 🧑‍🤝‍🧑｜SOCIAL
 [![github](https://img.shields.io/badge/GitHub-%235835CC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pelasgus)[![linked-in](https://img.shields.io/badge/LinkedIn-%235835CC?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pelasgus)![kaggle](https://img.shields.io/badge/Kaggle-%235835CC?style=for-the-badge&logo=Kaggle&logoColor=white)![leetcode](https://img.shields.io/badge/-LeetCode-%235835CC?style=for-the-badge&logo=LeetCode&logoColor=white)[![rss](https://img.shields.io/badge/RSS-%235835CC?style=for-the-badge&logo=rss&logoColor=white)](https://rss.pelasgus.software)
