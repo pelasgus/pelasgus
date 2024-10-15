@@ -35,39 +35,39 @@
   
 <!-- First-Party Commits Start -->
 <!-- First-Party Commits Start -->
-- [pelasgus/3d](https://github.com/pelasgus/3d) - 
+- [pelasgus/3d](https://github.com/pelasgus/3d) - Python
 
-- [pelasgus/AVR_ASM_Morse_Code](https://github.com/pelasgus/AVR_ASM_Morse_Code) - 
+- [pelasgus/AVR_ASM_Morse_Code](https://github.com/pelasgus/AVR_ASM_Morse_Code) - Assembly
 
-- [pelasgus/cargo-mobile2](https://github.com/pelasgus/cargo-mobile2) - 
+- [pelasgus/cargo-mobile2](https://github.com/pelasgus/cargo-mobile2) - null
 
-- [pelasgus/channel](https://github.com/pelasgus/channel) - 
+- [pelasgus/channel](https://github.com/pelasgus/channel) - Scheme
 
-- [pelasgus/chimera](https://github.com/pelasgus/chimera) - 
+- [pelasgus/chimera](https://github.com/pelasgus/chimera) - null
 
-- [pelasgus/chimeraos](https://github.com/pelasgus/chimeraos) - 
+- [pelasgus/chimeraos](https://github.com/pelasgus/chimeraos) - Shell
 
-- [pelasgus/create-tauri-app](https://github.com/pelasgus/create-tauri-app) - 
+- [pelasgus/create-tauri-app](https://github.com/pelasgus/create-tauri-app) - null
 
-- [pelasgus/declerative-shells](https://github.com/pelasgus/declerative-shells) - 
+- [pelasgus/declerative-shells](https://github.com/pelasgus/declerative-shells) - Nix
 
-- [pelasgus/game-streaming](https://github.com/pelasgus/game-streaming) - 
+- [pelasgus/game-streaming](https://github.com/pelasgus/game-streaming) - null
 
-- [pelasgus/HomeAssistantUI](https://github.com/pelasgus/HomeAssistantUI) - 
+- [pelasgus/HomeAssistantUI](https://github.com/pelasgus/HomeAssistantUI) - CSS
 
-- [pelasgus/keyd](https://github.com/pelasgus/keyd) - 
+- [pelasgus/keyd](https://github.com/pelasgus/keyd) - null
 
-- [pelasgus/leptos](https://github.com/pelasgus/leptos) - 
+- [pelasgus/leptos](https://github.com/pelasgus/leptos) - null
 
-- [pelasgus/logo](https://github.com/pelasgus/logo) - 
+- [pelasgus/logo](https://github.com/pelasgus/logo) - TeX
 
-- [pelasgus/MineCoins](https://github.com/pelasgus/MineCoins) - 
+- [pelasgus/MineCoins](https://github.com/pelasgus/MineCoins) - null
 
-- [pelasgus/netboot-img-generator](https://github.com/pelasgus/netboot-img-generator) - 
+- [pelasgus/netboot-img-generator](https://github.com/pelasgus/netboot-img-generator) - null
 
-- [pelasgus/nu_guix](https://github.com/pelasgus/nu_guix) - 
+- [pelasgus/nu_guix](https://github.com/pelasgus/nu_guix) - null
 
-- [pelasgus/nu_nix](https://github.com/pelasgus/nu_nix) - 
+- [pelasgus/nu_nix](https://github.com/pelasgus/nu_nix) - null
 
 <details><summary><strong><a href="https://github.com/pelasgus/pelasgus">pelasgus/pelasgus</a> - Shell</strong></summary>
 
@@ -83,19 +83,19 @@
 
 </details>
 
-- [pelasgus/plugins-workspace](https://github.com/pelasgus/plugins-workspace) - 
+- [pelasgus/plugins-workspace](https://github.com/pelasgus/plugins-workspace) - null
 
-- [pelasgus/plymouth-theme](https://github.com/pelasgus/plymouth-theme) - 
+- [pelasgus/plymouth-theme](https://github.com/pelasgus/plymouth-theme) - null
 
-- [pelasgus/Proton](https://github.com/pelasgus/Proton) - 
+- [pelasgus/Proton](https://github.com/pelasgus/Proton) - null
 
-- [pelasgus/psl](https://github.com/pelasgus/psl) - 
+- [pelasgus/psl](https://github.com/pelasgus/psl) - null
 
-- [pelasgus/rust](https://github.com/pelasgus/rust) - 
+- [pelasgus/rust](https://github.com/pelasgus/rust) - null
 
-- [pelasgus/sample-software-architecture](https://github.com/pelasgus/sample-software-architecture) - 
+- [pelasgus/sample-software-architecture](https://github.com/pelasgus/sample-software-architecture) - null
 
-- [pelasgus/setup_guix](https://github.com/pelasgus/setup_guix) - 
+- [pelasgus/setup_guix](https://github.com/pelasgus/setup_guix) - Nushell
 
 <details><summary><strong><a href="https://github.com/pelasgus/setup_nu">pelasgus/setup_nu</a> - Rust</strong></summary>
 
@@ -103,17 +103,17 @@
 
 </details>
 
-- [pelasgus/tauri](https://github.com/pelasgus/tauri) - 
+- [pelasgus/tauri](https://github.com/pelasgus/tauri) - null
 
-- [pelasgus/terminal](https://github.com/pelasgus/terminal) - 
+- [pelasgus/terminal](https://github.com/pelasgus/terminal) - Rust
 
-- [pelasgus/tex_template](https://github.com/pelasgus/tex_template) - 
+- [pelasgus/tex_template](https://github.com/pelasgus/tex_template) - TeX
 
-- [pelasgus/tex_template-cv](https://github.com/pelasgus/tex_template-cv) - 
+- [pelasgus/tex_template-cv](https://github.com/pelasgus/tex_template-cv) - null
 
-- [pelasgus/tex_template-poster](https://github.com/pelasgus/tex_template-poster) - 
+- [pelasgus/tex_template-poster](https://github.com/pelasgus/tex_template-poster) - null
 
-- [pelasgus/tex_template-presentation](https://github.com/pelasgus/tex_template-presentation) - 
+- [pelasgus/tex_template-presentation](https://github.com/pelasgus/tex_template-presentation) - null
 
 <details><summary><strong><a href="https://github.com/pelasgus/twitch-tv">pelasgus/twitch-tv</a> - Rust</strong></summary>
 
@@ -121,7 +121,7 @@
 
 </details>
 
-- [pelasgus/wry](https://github.com/pelasgus/wry) - 
+- [pelasgus/wry](https://github.com/pelasgus/wry) - null
 
 <details><summary><strong><a href="https://github.com/pelasgus/xilinx">pelasgus/xilinx</a> - Nushell</strong></summary>
 
