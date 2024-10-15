@@ -1,5 +1,3 @@
-# process_commits.sh
-# Author: D.A.Pelasgus
 #!/bin/bash
 
 # Function to process commits and create collapsible dropdowns
