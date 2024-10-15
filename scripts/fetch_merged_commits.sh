@@ -12,10 +12,12 @@ fetch_merged_commits() {
       "\(.repository_url | sub("https://api.github.com/repos/"; ""))|\(.html_url)|\(.title)"' |
     while IFS="|" read -r repo url title; do
       language=$(fetch_primary_language "$repo")
+      # Replace slashes with underscores to safely create filenames
+      repo_safe=$(echo "$repo" | sed 's/\//_/g')
       if [[ "$repo" == "$GH_USER/"* ]]; then
-        echo "- [$title]($url)" >> "commits_${repo//\//_}_first.txt"
+        echo "- [$title]($url)" >> "commits_${repo_safe}_first.txt"
       else
-        echo "- [$title]($url)" >> "commits_${repo//\//_}_third.txt"
+        echo "- [$title]($url)" >> "commits_${repo_safe}_third.txt"
       fi
       echo "$repo|$language" >> repos.txt
     done
