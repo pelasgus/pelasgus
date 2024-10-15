@@ -35,23 +35,23 @@
   
 <!-- First-Party Commits Start -->
 <!-- First-Party Commits Start -->
-<strong><a href="https://github.com/pelasgus/3d">pelasgus/3d</a> - </strong>
-<strong><a href="https://github.com/pelasgus/AVR_ASM_Morse_Code">pelasgus/AVR_ASM_Morse_Code</a> - </strong>
-<strong><a href="https://github.com/pelasgus/cargo-mobile2">pelasgus/cargo-mobile2</a> - </strong>
-<strong><a href="https://github.com/pelasgus/channel">pelasgus/channel</a> - </strong>
-<strong><a href="https://github.com/pelasgus/chimera">pelasgus/chimera</a> - </strong>
-<strong><a href="https://github.com/pelasgus/chimeraos">pelasgus/chimeraos</a> - </strong>
-<strong><a href="https://github.com/pelasgus/create-tauri-app">pelasgus/create-tauri-app</a> - </strong>
-<strong><a href="https://github.com/pelasgus/declerative-shells">pelasgus/declerative-shells</a> - </strong>
-<strong><a href="https://github.com/pelasgus/game-streaming">pelasgus/game-streaming</a> - </strong>
-<strong><a href="https://github.com/pelasgus/HomeAssistantUI">pelasgus/HomeAssistantUI</a> - </strong>
-<strong><a href="https://github.com/pelasgus/keyd">pelasgus/keyd</a> - </strong>
-<strong><a href="https://github.com/pelasgus/leptos">pelasgus/leptos</a> - </strong>
-<strong><a href="https://github.com/pelasgus/logo">pelasgus/logo</a> - </strong>
-<strong><a href="https://github.com/pelasgus/MineCoins">pelasgus/MineCoins</a> - </strong>
-<strong><a href="https://github.com/pelasgus/netboot-img-generator">pelasgus/netboot-img-generator</a> - </strong>
-<strong><a href="https://github.com/pelasgus/nu_guix">pelasgus/nu_guix</a> - </strong>
-<strong><a href="https://github.com/pelasgus/nu_nix">pelasgus/nu_nix</a> - </strong>
+- [pelasgus/3d](https://github.com/pelasgus/3d) - 
+- [pelasgus/AVR_ASM_Morse_Code](https://github.com/pelasgus/AVR_ASM_Morse_Code) - 
+- [pelasgus/cargo-mobile2](https://github.com/pelasgus/cargo-mobile2) - 
+- [pelasgus/channel](https://github.com/pelasgus/channel) - 
+- [pelasgus/chimera](https://github.com/pelasgus/chimera) - 
+- [pelasgus/chimeraos](https://github.com/pelasgus/chimeraos) - 
+- [pelasgus/create-tauri-app](https://github.com/pelasgus/create-tauri-app) - 
+- [pelasgus/declerative-shells](https://github.com/pelasgus/declerative-shells) - 
+- [pelasgus/game-streaming](https://github.com/pelasgus/game-streaming) - 
+- [pelasgus/HomeAssistantUI](https://github.com/pelasgus/HomeAssistantUI) - 
+- [pelasgus/keyd](https://github.com/pelasgus/keyd) - 
+- [pelasgus/leptos](https://github.com/pelasgus/leptos) - 
+- [pelasgus/logo](https://github.com/pelasgus/logo) - 
+- [pelasgus/MineCoins](https://github.com/pelasgus/MineCoins) - 
+- [pelasgus/netboot-img-generator](https://github.com/pelasgus/netboot-img-generator) - 
+- [pelasgus/nu_guix](https://github.com/pelasgus/nu_guix) - 
+- [pelasgus/nu_nix](https://github.com/pelasgus/nu_nix) - 
 <details><summary><strong><a href="https://github.com/pelasgus/pelasgus">pelasgus/pelasgus</a> - Shell</strong></summary>
 
 - [Actions/readme contributions](https://github.com/pelasgus/pelasgus/pull/9)
@@ -65,30 +65,30 @@
 - [licensing the project](https://github.com/pelasgus/pelasgus/pull/1)
 
 </details>
-<strong><a href="https://github.com/pelasgus/plugins-workspace">pelasgus/plugins-workspace</a> - </strong>
-<strong><a href="https://github.com/pelasgus/plymouth-theme">pelasgus/plymouth-theme</a> - </strong>
-<strong><a href="https://github.com/pelasgus/Proton">pelasgus/Proton</a> - </strong>
-<strong><a href="https://github.com/pelasgus/psl">pelasgus/psl</a> - </strong>
-<strong><a href="https://github.com/pelasgus/rust">pelasgus/rust</a> - </strong>
-<strong><a href="https://github.com/pelasgus/sample-software-architecture">pelasgus/sample-software-architecture</a> - </strong>
-<strong><a href="https://github.com/pelasgus/setup_guix">pelasgus/setup_guix</a> - </strong>
+- [pelasgus/plugins-workspace](https://github.com/pelasgus/plugins-workspace) - 
+- [pelasgus/plymouth-theme](https://github.com/pelasgus/plymouth-theme) - 
+- [pelasgus/Proton](https://github.com/pelasgus/Proton) - 
+- [pelasgus/psl](https://github.com/pelasgus/psl) - 
+- [pelasgus/rust](https://github.com/pelasgus/rust) - 
+- [pelasgus/sample-software-architecture](https://github.com/pelasgus/sample-software-architecture) - 
+- [pelasgus/setup_guix](https://github.com/pelasgus/setup_guix) - 
 <details><summary><strong><a href="https://github.com/pelasgus/setup_nu">pelasgus/setup_nu</a> - Rust</strong></summary>
 
 - [LICENSE](https://github.com/pelasgus/setup_nu/pull/3)
 
 </details>
-<strong><a href="https://github.com/pelasgus/tauri">pelasgus/tauri</a> - </strong>
-<strong><a href="https://github.com/pelasgus/terminal">pelasgus/terminal</a> - </strong>
-<strong><a href="https://github.com/pelasgus/tex_template">pelasgus/tex_template</a> - </strong>
-<strong><a href="https://github.com/pelasgus/tex_template-cv">pelasgus/tex_template-cv</a> - </strong>
-<strong><a href="https://github.com/pelasgus/tex_template-poster">pelasgus/tex_template-poster</a> - </strong>
-<strong><a href="https://github.com/pelasgus/tex_template-presentation">pelasgus/tex_template-presentation</a> - </strong>
+- [pelasgus/tauri](https://github.com/pelasgus/tauri) - 
+- [pelasgus/terminal](https://github.com/pelasgus/terminal) - 
+- [pelasgus/tex_template](https://github.com/pelasgus/tex_template) - 
+- [pelasgus/tex_template-cv](https://github.com/pelasgus/tex_template-cv) - 
+- [pelasgus/tex_template-poster](https://github.com/pelasgus/tex_template-poster) - 
+- [pelasgus/tex_template-presentation](https://github.com/pelasgus/tex_template-presentation) - 
 <details><summary><strong><a href="https://github.com/pelasgus/twitch-tv">pelasgus/twitch-tv</a> - Rust</strong></summary>
 
 - [licensing the project](https://github.com/pelasgus/twitch-tv/pull/1)
 
 </details>
-<strong><a href="https://github.com/pelasgus/wry">pelasgus/wry</a> - </strong>
+- [pelasgus/wry](https://github.com/pelasgus/wry) - 
 <details><summary><strong><a href="https://github.com/pelasgus/xilinx">pelasgus/xilinx</a> - Nushell</strong></summary>
 
 - [Update test_install.yml](https://github.com/pelasgus/xilinx/pull/1)
