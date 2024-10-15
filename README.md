@@ -28,19 +28,19 @@
 Contributions to projects that I am not the creator of:
 <!-- Third-Party Commits Start -->
 <!-- Third-Party Commits Start -->
-<details><summary><strong><a href="https://github.com/ChimeraOS_chimera">ChimeraOS_chimera</a> - </strong></summary>
+<details><summary><strong><a href="https://github.com/ChimeraOS/chimera">ChimeraOS/chimera</a> - Python</strong></summary>
 
 - [Dependabot](https://github.com/ChimeraOS/chimera/pull/317)
 
 </details>
-<details><summary><strong><a href="https://github.com/ChimeraOS_chimeraos">ChimeraOS_chimeraos</a> - </strong></summary>
+<details><summary><strong><a href="https://github.com/ChimeraOS/chimeraos">ChimeraOS/chimeraos</a> - Shell</strong></summary>
 
 - [Dependabot](https://github.com/ChimeraOS/chimeraos/pull/1027)
 - [Update README.md](https://github.com/ChimeraOS/chimeraos/pull/1023)
 - [Fix Emoji Dispaly Error](https://github.com/ChimeraOS/chimeraos/pull/723)
 
 </details>
-<details><summary><strong><a href="https://github.com/tauri-apps_wry">tauri-apps_wry</a> - </strong></summary>
+<details><summary><strong><a href="https://github.com/tauri-apps/wry">tauri-apps/wry</a> - Rust</strong></summary>
 
 - [docs: shells for declarative package managers (guix and nix)](https://github.com/tauri-apps/wry/pull/1378)
 
@@ -52,7 +52,7 @@ Contributions to projects that I am not the creator of:
 Contributions to projects that I am the creator of:
 <!-- First-Party Commits Start -->
 <!-- First-Party Commits Start -->
-<details><summary><strong><a href="https://github.com/pelasgus_pelasgus">pelasgus_pelasgus</a> - </strong></summary>
+<details><summary><strong><a href="https://github.com/pelasgus/pelasgus">pelasgus/pelasgus</a> - Shell</strong></summary>
 
 - [Actions/readme contributions](https://github.com/pelasgus/pelasgus/pull/9)
 - [Dependabot](https://github.com/pelasgus/pelasgus/pull/8)
@@ -65,22 +65,22 @@ Contributions to projects that I am the creator of:
 - [licensing the project](https://github.com/pelasgus/pelasgus/pull/1)
 
 </details>
-<details><summary><strong><a href="https://github.com/pelasgus_setup_nu">pelasgus_setup_nu</a> - </strong></summary>
+<details><summary><strong><a href="https://github.com/pelasgus/setup_nu">pelasgus/setup_nu</a> - Rust</strong></summary>
 
 - [LICENSE](https://github.com/pelasgus/setup_nu/pull/3)
 
 </details>
-<details><summary><strong><a href="https://github.com/pelasgus_twitch-tv">pelasgus_twitch-tv</a> - </strong></summary>
+<details><summary><strong><a href="https://github.com/pelasgus/twitch-tv">pelasgus/twitch-tv</a> - Rust</strong></summary>
 
 - [licensing the project](https://github.com/pelasgus/twitch-tv/pull/1)
 
 </details>
-<details><summary><strong><a href="https://github.com/pelasgus_xilinx">pelasgus_xilinx</a> - </strong></summary>
+<details><summary><strong><a href="https://github.com/pelasgus/xilinx">pelasgus/xilinx</a> - Nushell</strong></summary>
 
 - [Update test_install.yml](https://github.com/pelasgus/xilinx/pull/1)
 
 </details>
-<details><summary><strong><a href="https://github.com/pelasgus_youtube-tv">pelasgus_youtube-tv</a> - </strong></summary>
+<details><summary><strong><a href="https://github.com/pelasgus/youtube-tv">pelasgus/youtube-tv</a> - Rust</strong></summary>
 
 - [Pelasgus/project restructuring](https://github.com/pelasgus/youtube-tv/pull/10)
 - [fix: window size aspect ratio](https://github.com/pelasgus/youtube-tv/pull/9)
