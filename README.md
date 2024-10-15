@@ -3,7 +3,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Cinzel&weight=500&size=50&duration=2000&pause=1000&color=F7F7F7&background=5835CC&center=true&multiline=true&repeat=false&width=845&height=65&lines=D.A.PELASGUS%2C+TECHNOCRAT)](https://pelasgus.xyz)
 
 <!--THESES & CORRESPONDING PROJECTS-->
-<details><summary><b>📝｜THESES & CORRESPONDING PROJECTS</b></summary>
+<details><summary><b>📝｜THESES</b></summary>
 
 </details>
 
@@ -46,8 +46,8 @@
 </details>
 
 
-<!-- HARD SKILLS -->
-<details><summary><b>🧰｜TECHNOLOGY STACK INCARNATION</b></summary>
+<!-- SOFTWARE STACK SNAPSHOT -->
+<details><summary><b>🧰｜SOFTWARE STACK SNAPSHOT</b></summary>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pelasgus&bg_color=00000000&hide_border=true&icon_color=&text_color=&hide_title=true&hide_rank=true&layout=compact&size_weight=0.5&count_weight=0.5)](https://github.com/pelasgus?tab=repositories)
 
