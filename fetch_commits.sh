@@ -4,14 +4,6 @@
 GH_TOKEN="${GH_TOKEN}"
 GH_USER="${GH_USER}"
 
-# Function to fetch the primary language of a repository
-fetch_primary_language() {
-  local repo="$1"
-  curl -s -H "Authorization: token $GH_TOKEN" \
-    "https://api.github.com/repos/$repo" |
-    jq -r '.language'
-}
-
 # Function to fetch unique contributed repositories
 fetch_contributed_repos() {
   curl -s -H "Authorization: token $GH_TOKEN" \
@@ -22,6 +14,14 @@ fetch_contributed_repos() {
       owner=$(echo $repo | cut -d/ -f1)
       echo "- [$repo](https://github.com/$repo) (Owner: $owner)"
     done
+}
+
+# Function to fetch the primary language of a repository
+fetch_primary_language() {
+  local repo="$1"
+  curl -s -H "Authorization: token $GH_TOKEN" \
+    "https://api.github.com/repos/$repo" |
+    jq -r '.language'
 }
 
 # Function to fetch and categorize merged commits into first-party and third-party
@@ -44,8 +44,11 @@ fetch_merged_commits() {
 
 # Initialize output files and fetch data
 > repos.txt
-fetch_contributed_repos
+CONTRIBUTED_REPOS=$(fetch_contributed_repos)
 fetch_merged_commits
+
+# Prepare the contributed repositories section as a simple Markdown list
+CONTRIBUTED_REPOS=$(cat repos.txt | awk -F'|' '!seen[$1]++ {print "- ["$1"](https://github.com/"$1") (Owner: "gensub("/.*", "", "g", $1)")"}')
 
 # Process commits and group by repository with dropdowns
 process_commits() {
