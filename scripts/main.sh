@@ -1,5 +1,3 @@
-# main.sh
-# Author: D.A.Pelasgus
 #!/bin/bash
 
 # Load all function scripts from the scripts directory
