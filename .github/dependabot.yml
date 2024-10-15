@@ -2,10 +2,15 @@
 # Author: D.A.Pelasgus
 
 version: 2
+on:
+  push:
+    branches:
+      - main  # Trigger on push to the main branch (adjust as necessary)
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight
+  workflow_dispatch:
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
-    schedule:
-      interval: "daily"
     commit-message:
       prefix: "chore"
