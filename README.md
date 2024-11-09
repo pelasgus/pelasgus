@@ -1,6 +1,6 @@
 <!-- README.md -->
 <!-- Author: D.A.Pelasgus -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Cinzel&weight=500&size=50&duration=2000&pause=1000&color=F7F7F7&background=5835CC&center=true&multiline=true&repeat=false&width=845&height=65&lines=D.A.PELASGUS%2C+TECHNOCRAT)](https://pelasgus.xyz)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Cinzel&weight=500&size=50&duration=2000&pause=1000&color=F7F7F7&background=6f4774&center=true&multiline=true&repeat=false&width=845&height=65&lines=D.A.PELASGUS%2C+TECHNOCRAT)](https://pelasgus.xyz)
 
 <!--THESES & CORRESPONDING PROJECTS-->
 <details><summary><b>📝｜THESES</b></summary>
@@ -59,4 +59,4 @@
 </details>
 
 ### 🧑‍🤝‍🧑｜SOCIAL
-[![github](https://img.shields.io/badge/GitHub-%235835CC?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pelasgus)[![linked-in](https://img.shields.io/badge/LinkedIn-%235835CC?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pelasgus)![kaggle](https://img.shields.io/badge/Kaggle-%235835CC?style=for-the-badge&logo=Kaggle&logoColor=white)![leetcode](https://img.shields.io/badge/-LeetCode-%235835CC?style=for-the-badge&logo=LeetCode&logoColor=white)[![rss](https://img.shields.io/badge/RSS-%235835CC?style=for-the-badge&logo=rss&logoColor=white)](https://rss.pelasgus.software)
+[![github](https://img.shields.io/badge/GitHub-%236f4774?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pelasgus)[![linked-in](https://img.shields.io/badge/LinkedIn-%236f4774?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pelasgus)![kaggle](https://img.shields.io/badge/Kaggle-%236f4774?style=for-the-badge&logo=Kaggle&logoColor=white)![leetcode](https://img.shields.io/badge/-LeetCode-%236f4774?style=for-the-badge&logo=LeetCode&logoColor=white)[![rss](https://img.shields.io/badge/RSS-%236f4774?style=for-the-badge&logo=rss&logoColor=white)](https://rss.pelasgus.software)
