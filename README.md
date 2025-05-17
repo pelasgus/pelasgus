@@ -72,7 +72,7 @@
 <details>
   <summary><i>
     Various social media links.
-  </i>/summary>
+  </i></summary>
 
 [![github](https://img.shields.io/badge/GitHub-%20%23663399?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pelasgus)[![linked-in](https://img.shields.io/badge/LinkedIn-%20%23663399?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pelasgus)![kaggle](https://img.shields.io/badge/Kaggle-%20%23663399?style=for-the-badge&logo=Kaggle&logoColor=white)![leetcode](https://img.shields.io/badge/-LeetCode-%20%23663399?style=for-the-badge&logo=LeetCode&logoColor=white)[![rss](https://img.shields.io/badge/RSS-%20%23663399?style=for-the-badge&logo=rss&logoColor=white)](https://rss.pelasgus.software)
 
