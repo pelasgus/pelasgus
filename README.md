@@ -6,7 +6,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=45&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&multiline=true&repeat=false&width=845&height=65&lines=%F0%9F%93%9D%EF%BD%9CTHESES" style="float:right;"/>
 <details>
   <summary><i>
-    An exhaustive collection of D.A.Pelsgus' academic work.
+    An exhaustive collection of D.A.Pelasgus' academic work.
   </i></summary>
 </details>
 
