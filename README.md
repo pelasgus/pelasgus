@@ -3,40 +3,24 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=100&letterSpacing=normal&duration=2500&pause=1500&color=F7F7F7&background=663399&center=true&vCenter=true&width=845&height=180&lines=D.A.PELASGUS;TECHNOCRAT)](https://pelasgus.xyz)
 
 <!--THESES & CORRESPONDING PROJECTS-->
-<style>
-  details summary {
-    list-style: none; /* Hide the default arrow */
-  }
-
-  details summary::-webkit-details-marker {
-    display: none; /* Hide arrow in WebKit browsers */
-  }
-
-  summary img {
-    cursor: pointer;
-    display: block;
-  }
-
-  details[open] summary img {
-    /* Optional: change style when open */
-    opacity: 0.8;
-  }
-
-  details > div {
-    padding: 10px;
-  }
-</style>
-
 <details>
   <summary>
     <img 
       src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=60&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&multiline=true&repeat=false&width=845&height=90&lines=%F0%9F%93%9D%EF%BD%9CTHESES" 
-      alt="Typing SVG" />
+      alt="Typing SVG"
+      style="cursor:pointer; display:block;"/>
   </summary>
-  <div>
-    <p>📚 Here is the thesis content! You can put abstracts, links, downloads, etc.</p>
+  <div style="padding: 1em; background-color: #f8f8f8; border: 1px solid #ccc; border-top: none; font-family: sans-serif;">
+    <h2>📄 Thesis Collection</h2>
+    <ul>
+      <li><strong>Thesis 1:</strong> Understanding Neural Networks</li>
+      <li><strong>Thesis 2:</strong> Advances in Quantum Computing</li>
+      <li><strong>Thesis 3:</strong> Sustainable AI Systems</li>
+    </ul>
+    <p>Each thesis explores different dimensions of modern computation and innovation. Click on a title to learn more or download the PDF.</p>
   </div>
 </details>
+
 
 
 
