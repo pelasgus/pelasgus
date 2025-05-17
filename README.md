@@ -20,9 +20,6 @@
   <summary>
     
   </summary>
-</details>
-
-<details><summary><b>💼｜PHILANTHROPY</b></summary>
 
   *N.B.: Only merged PRs to FOSS Projects are displaeyd.*
 
