@@ -1,6 +1,6 @@
 <!-- README.md -->
 <!-- Author: D.A.Pelasgus -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Red+Hat+Display&weight=600&size=75&duration=2500&pause=1500&color=F7F7F7&background=663399&center=true&vCenter=true&width=845&height=100&lines=D.A.PELASGUS;TECHNOCRAT)](https://pelasgus.xyz)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=100&letterSpacing=normal&duration=2500&pause=1500&color=F7F7F7&background=663399&center=true&vCenter=true&width=845&height=180&lines=D.A.PELASGUS;TECHNOCRAT)](https://pelasgus.xyz)
 
 <!--THESES & CORRESPONDING PROJECTS-->
 <details><summary><b>📝｜THESES</b></summary>
