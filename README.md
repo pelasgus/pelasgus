@@ -3,14 +3,16 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=100&letterSpacing=normal&duration=2500&pause=1500&color=F7F7F7&background=663399&center=true&vCenter=true&width=845&height=180&lines=D.A.PELASGUS;TECHNOCRAT)](https://pelasgus.xyz)
 
 <!--THESES & CORRESPONDING PROJECTS-->
-  <details>
-    <summary>📝｜THESES</summary>
-    <a href="https://git.io/typing-svg">
-      <img 
-        src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=60&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&multiline=true&repeat=false&width=845&height=90&lines=%F0%9F%93%9D%EF%BD%9CTHESES" 
-        alt="Typing SVG" />
-    </a>
-  </details>
+<details>
+  <summary>
+    <img 
+      src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=60&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&multiline=true&repeat=false&width=845&height=90&lines=%F0%9F%93%9D%EF%BD%9CTHESES" 
+      alt="Typing SVG"
+      style="vertical-align: middle;" />
+  </summary>
+  <p>thesis titles, abstracts, or links.</p>
+</details>
+
 
 <!--CONTRIBUTIONS-->
 <details><summary><b>💼｜PHILANTHROPY</b></summary>
