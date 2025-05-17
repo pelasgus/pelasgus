@@ -6,7 +6,7 @@
 <details>
   <summary>
     <img 
-      src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=100&size=60&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&multiline=true&repeat=false&width=845&height=90&lines=%F0%9F%93%9D%EF%BD%9CTHESES" 
+      src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=60&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&multiline=true&repeat=false&width=125&height=90&lines=%F0%9F%93%9D%EF%BD%9CTHESES" 
       alt="Typing SVG"
       style="cursor:pointer; display:block;"/>
   </summary>
