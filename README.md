@@ -61,7 +61,12 @@
 
 
 <!-- SOFTWARE STACK SNAPSHOT -->
-<details><summary><b>🧰｜SOFTWARE STACK SNAPSHOT</b></summary>
+<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=45&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&multiline=true&repeat=false&width=845&height=65&lines=%F0%9F%A7%B0%EF%BD%9CSOFTWARE+STACK+SNAPSHOT"/>
+<details>
+  <summary>
+    
+  </summary>
+
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pelasgus&bg_color=00000000&hide_border=true&icon_color=&text_color=&hide_title=true&hide_rank=true&layout=compact&size_weight=0.5&count_weight=0.5)](https://github.com/pelasgus?tab=repositories)
 
