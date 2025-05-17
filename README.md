@@ -17,9 +17,9 @@
 <!--CONTRIBUTIONS-->
 <img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=45&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&multiline=true&repeat=false&width=845&height=65&lines=%F0%9F%92%BC%EF%BD%9CPHILANTHROPY"/>
 <details>
-  <summary>N.B.: Only merged PRs to FOSS Projects are displayed.
-  
-  </summary>
+  <summary>
+    Only merged PRs to FOSS Projects are displayed.
+</summary>
 
 <details><summary><b>THIRD PARTY PUBLIC FOSS PROJECTS</b></summary>  
 
