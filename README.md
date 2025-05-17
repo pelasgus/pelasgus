@@ -5,10 +5,7 @@
 <!--THESES & CORRESPONDING PROJECTS-->
 <details>
   <summary>
-    <img 
-      src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=60&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&multiline=true&repeat=false&width=125&height=90&lines=%F0%9F%93%9D%EF%BD%9CTHESES" 
-      alt="Typing SVG"
-      style="cursor:pointer; display:block;"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&size=60&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&multiline=true&repeat=false&height=90&lines=%F0%9F%93%9D%EF%BD%9CTHESES"
   </summary>
   <div style="padding: 1em; background-color: #f8f8f8; border: 1px solid #ccc; border-top: none; font-family: sans-serif;">
     <h2>📄 Thesis Collection</h2>
