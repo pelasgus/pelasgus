@@ -3,7 +3,7 @@
 
 <!--THESES & CORRESPONDING PROJECTS-->
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=60&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&vCenter=true&width=845&height=80&lines= D.A.PELASGUS; TECHNOCRAT"/><img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=30&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&multiline=true&repeat=false&width=845&height=45&lines=  %F0%9F%93%9D%EF%BD%9CTHESES"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=60&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&vCenter=true&width=845&height=80&lines= D.A.PELASGUS; TECHNOCRAT"/><img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=30&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&vcenter=true&multiline=true&repeat=false&width=845&height=45&lines=  %F0%9F%93%9D%EF%BD%9CTHESES"/>
 <details>
   <summary><i>
     An exhaustive collection of D.A.Pelasgus' academic work.
@@ -11,7 +11,7 @@
 </details>
 
 <!--CONTRIBUTIONS-->
-<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=30&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&multiline=true&repeat=false&width=845&height=45&lines=  %F0%9F%92%BC%EF%BD%9CPHILANTHROPY"/><details><summary><i>Only merged PRs to FOSS Projects are displayed.</i></summary>
+<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=30&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&vcenter=true&multiline=true&repeat=false&width=845&height=45&lines=  %F0%9F%92%BC%EF%BD%9CPHILANTHROPY"/><details><summary><i>Only merged PRs to FOSS Projects are displayed.</i></summary>
 
 <details><summary><b>THIRD PARTY PUBLIC FOSS PROJECTS</b></summary>  
 
@@ -48,7 +48,7 @@
 
 
 <!-- SOFTWARE STACK SNAPSHOT -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=30&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&multiline=true&repeat=false&width=845&height=45&lines=  %F0%9F%A7%B0%EF%BD%9CSOFTWARE+STACK+SNAPSHOT"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=30&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&vcenter=true&multiline=true&repeat=false&width=845&height=45&lines=  %F0%9F%A7%B0%EF%BD%9CSOFTWARE+STACK+SNAPSHOT"/>
 <details>
   <summary><i>
     A snapshot of the technologies currently in use.
