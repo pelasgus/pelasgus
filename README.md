@@ -3,7 +3,7 @@
 
 <!--THESES & CORRESPONDING PROJECTS-->
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=60&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&vCenter=true&width=1200&height=80&lines= D.A.PELASGUS; TECHNOCRAT"/><img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=30&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&vcenter=true&multiline=true&repeat=false&width=1200&height=45&lines=  %F0%9F%93%9D%EF%BD%9CTHESES+|+PAPERS+|+PHILANTHROPY"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=60&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&vCenter=true&width=1200&height=80&lines= D.A.PELASGUS+-+TECHNOCRAT"/><img src="https://readme-typing-svg.herokuapp.com?font=Noto+Sans&weight=800&size=30&letterSpacing=Normal&duration=2500&pause=1500&color=F7F7F7&background=663399&vcenter=true&multiline=true&repeat=false&width=1200&height=45&lines=  %F0%9F%93%9D%EF%BD%9CTHESES+|+PAPERS+|+PHILANTHROPY"/>
 <details>
   <summary><i>
     An exhaustive collection of D.A.Pelasgus' academic work.
