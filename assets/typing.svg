@@ -145,10 +145,10 @@
     <text class="display line ink" x="84" y="251">Technocrat<tspan class="accent cursor">▏</tspan></text>
   </g>
   <g class="phrase p2" clip-path="url(#clip2)">
-    <text class="display line ink" x="84" y="251">Nix · Rust · infrastructure<tspan class="accent cursor">▏</tspan></text>
-  </g>
+    <text class="display line ink" x="84" y="251">Rust · Nix · Steel · Infrastructure<tspan class="accent cursor">▏</tspan></text>
+  </g>  
   <g class="phrase p3" clip-path="url(#clip3)">
-    <text class="display line ink" x="84" y="251">theses · papers · philanthropy<tspan class="accent cursor">▏</tspan></text>
+    <text class="display line ink" x="84" y="251">academic material · open-source<tspan class="accent cursor">▏</tspan></text>
   </g>
   <g class="phrase p4" clip-path="url(#clip4)">
     <text class="display line ink" x="84" y="251">building public systems to endure<tspan class="accent cursor">▏</tspan></text>
