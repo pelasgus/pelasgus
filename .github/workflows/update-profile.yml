@@ -26,6 +26,14 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: nix develop --command nu scripts/update-profile.nu
 
+      - name: Build contribution snake
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          nix develop --command python3 vendor/snake-and-commits/generate.py --user "${GITHUB_REPOSITORY_OWNER}" --output /tmp/contribution-snake.svg --theme pelasgus --no-counter
+          nix develop --command nu scripts/embed-snake.nu /tmp/contribution-snake.svg
+          nix develop --command nu scripts/build-hero.nu
+
       - name: Commit changes
         run: |
           if git diff --quiet -- assets/typing.svg assets/typing.template.svg; then

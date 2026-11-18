@@ -95,10 +95,10 @@ def main [] {
 
     for svg in ["assets/typing.template.svg" "assets/typing.svg"] {
         let path = ($root | path join $svg)
-        open --raw $path
+        let base = (open --raw $path
         | str replace --regex '(<text id="gpg-value"[^>]*>)[^<]*(</text>)' $"${1}($gpg_xml)${2}"
         | str replace --regex '(<text id="ssh-value"[^>]*>)[^<]*(</text>)' $"${1}($ssh_xml)${2}"
-        | str replace --regex '(?s)(<g id="language-values">).*?(</g>)' $"${1}($language_svg)${2}"
-        | save --force $path
+        | str replace --regex '(?s)(<g id="language-values">).*?(</g>)' $"${1}($language_svg)${2}")
+        $base | save --force $path
     }
 }
