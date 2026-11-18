@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/pelasgus">
-    <img src="./assets/typing.svg" width="100%" alt="D.A.Pelasgus — technocrat, systems builder, and author." />
+    <img src="./assets/typing.svg" width="100%" alt="D.A.Pelasgus — Technocrat." />
   </a>
 </p>
 
