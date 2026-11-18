@@ -54,14 +54,15 @@ def main [] {
         | each {|entry|
             let y = (160 + ($entry.index * 32))
             let bar_y = ($y + 9)
-            let percentage = (($entry.item.count * 100 / $language_total) | math round | into int)
+            let bar_number = ($entry.index + 1)
+            let percentage = (($entry.item.count * 100 / $language_total) | math round --precision 2)
             let width = (($percentage * 2.18) | math round --precision 1)
             let language = (escape-xml $entry.item.language)
             [
                 $'\n    <text class="display language ink" x="898" y="($y)">($language)</text>'
                 $'\n    <text class="folio muted" x="1116" y="($y)" text-anchor="end">($percentage)%</text>'
                 $'\n    <rect class="bar-bg" x="898" y="($bar_y)" width="218" height="3" />'
-                $'\n    <rect class="bar" x="898" y="($bar_y)" width="($width)" height="3" />'
+                $'\n    <rect class="bar bar-($bar_number)" x="898" y="($bar_y)" width="($width)" height="3" />'
             ] | str join
         }
         | str join
