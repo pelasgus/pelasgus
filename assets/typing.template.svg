@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
+  <title id="title">D.A.Pelasgus</title>
+  <desc id="desc">An animated editorial masthead introducing D.A.Pelasgus as a technocrat and systems builder.</desc>
+  <style>
+    @font-face {
+      font-family: "Operator Mono Embedded";
+      src: url("data:font/otf;base64,__FONT_DATA__") format("opentype");
+      font-style: normal;
+      font-weight: 300;
+    }
+    @font-face {
+      font-family: "Operator Mono Embedded";
+      src: url("data:font/otf;base64,__FONT_ITALIC_DATA__") format("opentype");
+      font-style: italic;
+      font-weight: 300;
+    }
+
+    :root { color-scheme: light dark; }
+    .paper { fill: #f4f0e8; }
+    .ink { fill: #17151a; }
+    .muted { fill: #625d68; }
+    .rule { stroke: #17151a; }
+    .accent { fill: #663399; }
+    .display { font-family: "Operator Mono Embedded", monospace; font-weight: 300; }
+    .label { font: 600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 3px; }
+    .name { font-size: 80px; letter-spacing: -4px; }
+    .line { font-size: 27px; font-style: italic; letter-spacing: -.5px; }
+    .trust { font-size: 17px; letter-spacing: .5px; }
+    .language { font-size: 14px; letter-spacing: .25px; }
+    .bar-bg { fill: #17151a; opacity: .12; }
+    .bar { fill: #663399; }
+    .folio { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 2px; }
+
+    .phrase { opacity: 0; }
+    .p1 { opacity: 1; animation: phrase1 16s infinite; }
+    .p2 { animation: phrase2 16s infinite; }
+    .p3 { animation: phrase3 16s infinite; }
+    .p4 { animation: phrase4 16s infinite; }
+    .wipe1 { animation: type1 16s steps(38, end) infinite; }
+    .wipe2 { animation: type2 16s steps(35, end) infinite; }
+    .wipe3 { animation: type3 16s steps(36, end) infinite; }
+    .wipe4 { animation: type4 16s steps(42, end) infinite; }
+    .cursor { animation: cursor 800ms steps(1, end) infinite; }
+    .credential { opacity: 0; }
+    .gpg { opacity: 1; animation: credential1 10s infinite; }
+    .ssh { animation: credential2 10s infinite; }
+
+    @keyframes phrase1 { 0%, 23% { opacity: 1 } 25%, 100% { opacity: 0 } }
+    @keyframes phrase2 { 0%, 24% { opacity: 0 } 25%, 48% { opacity: 1 } 50%, 100% { opacity: 0 } }
+    @keyframes phrase3 { 0%, 49% { opacity: 0 } 50%, 73% { opacity: 1 } 75%, 100% { opacity: 0 } }
+    @keyframes phrase4 { 0%, 74% { opacity: 0 } 75%, 98% { opacity: 1 } 100% { opacity: 0 } }
+    @keyframes type1 { 0% { width: 0 } 15%, 100% { width: 760px } }
+    @keyframes type2 { 0%, 25% { width: 0 } 40%, 100% { width: 760px } }
+    @keyframes type3 { 0%, 50% { width: 0 } 65%, 100% { width: 760px } }
+    @keyframes type4 { 0%, 75% { width: 0 } 90%, 100% { width: 760px } }
+    @keyframes cursor { 0%, 48% { opacity: 1 } 49%, 100% { opacity: 0 } }
+    @keyframes credential1 {
+      0% { opacity: 0; transform: translateY(12px) }
+      8%, 42% { opacity: 1; transform: translateY(0) }
+      50%, 100% { opacity: 0; transform: translateY(-12px) }
+    }
+    @keyframes credential2 {
+      0%, 50% { opacity: 0; transform: translateY(12px) }
+      58%, 92% { opacity: 1; transform: translateY(0) }
+      100% { opacity: 0; transform: translateY(-12px) }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .paper { fill: #17151a; }
+      .ink { fill: #f4f0e8; }
+      .muted { fill: #aaa2b1; }
+      .rule { stroke: #f4f0e8; }
+      .accent { fill: #b48bdd; }
+      .bar-bg { fill: #f4f0e8; opacity: .16; }
+      .bar { fill: #b48bdd; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .phrase, .p1 { animation: none; opacity: 0; }
+      .p1 { opacity: 1; }
+      .wipe1 { animation: none; width: 760px; }
+      .cursor { animation: none; opacity: 1; }
+      .credential, .gpg { animation: none; opacity: 0; }
+      .gpg { opacity: 1; }
+    }
+  </style>
+
+  <defs>
+    <clipPath id="clip1"><rect class="wipe1" x="84" y="218" width="760" height="48" /></clipPath>
+    <clipPath id="clip2"><rect class="wipe2" x="84" y="218" width="0" height="48" /></clipPath>
+    <clipPath id="clip3"><rect class="wipe3" x="84" y="218" width="0" height="48" /></clipPath>
+    <clipPath id="clip4"><rect class="wipe4" x="84" y="218" width="0" height="48" /></clipPath>
+  </defs>
+
+  <rect class="paper" width="1200" height="410" />
+  <rect class="accent" x="0" width="18" height="410" />
+  <text class="label muted" x="84" y="62">PROFILE</text>
+  <text class="folio muted" x="1114" y="62" text-anchor="end">CH-GB-CY</text>
+  <line class="rule" x1="84" y1="86" x2="1116" y2="86" stroke-width="1" opacity=".35" />
+
+  <text class="display name ink" x="78" y="184">D.A.Pelasgus</text>
+
+  <line class="rule" x1="862" y1="112" x2="862" y2="320" stroke-width="1" opacity=".22" />
+  <text class="label muted" x="898" y="127">LANGUAGES</text>
+  <text class="folio muted" x="1116" y="127" text-anchor="end">BY REPO</text>
+  <g id="language-values">
+    <text class="display language ink" x="898" y="160">Nix</text>
+    <text class="folio muted" x="1116" y="160" text-anchor="end">20%</text>
+    <rect class="bar-bg" x="898" y="169" width="218" height="3" />
+    <rect class="bar" x="898" y="169" width="43.6" height="3" />
+    <text class="display language ink" x="898" y="192">Lua</text>
+    <text class="folio muted" x="1116" y="192" text-anchor="end">20%</text>
+    <rect class="bar-bg" x="898" y="201" width="218" height="3" />
+    <rect class="bar" x="898" y="201" width="43.6" height="3" />
+    <text class="display language ink" x="898" y="224">Rust</text>
+    <text class="folio muted" x="1116" y="224" text-anchor="end">20%</text>
+    <rect class="bar-bg" x="898" y="233" width="218" height="3" />
+    <rect class="bar" x="898" y="233" width="43.6" height="3" />
+    <text class="display language ink" x="898" y="256">TeX</text>
+    <text class="folio muted" x="1116" y="256" text-anchor="end">13%</text>
+    <rect class="bar-bg" x="898" y="265" width="218" height="3" />
+    <rect class="bar" x="898" y="265" width="28.3" height="3" />
+    <text class="display language ink" x="898" y="288">Nushell</text>
+    <text class="folio muted" x="1116" y="288" text-anchor="end">13%</text>
+    <rect class="bar-bg" x="898" y="297" width="218" height="3" />
+    <rect class="bar" x="898" y="297" width="28.3" height="3" />
+  </g>
+
+  <g class="phrase p1" clip-path="url(#clip1)">
+    <text class="display line ink" x="84" y="251">technocrat / systems builder<tspan class="accent cursor">▏</tspan></text>
+  </g>
+  <g class="phrase p2" clip-path="url(#clip2)">
+    <text class="display line ink" x="84" y="251">Nix · Rust · infrastructure<tspan class="accent cursor">▏</tspan></text>
+  </g>
+  <g class="phrase p3" clip-path="url(#clip3)">
+    <text class="display line ink" x="84" y="251">theses · papers · philanthropy<tspan class="accent cursor">▏</tspan></text>
+  </g>
+  <g class="phrase p4" clip-path="url(#clip4)">
+    <text class="display line ink" x="84" y="251">building public systems to endure<tspan class="accent cursor">▏</tspan></text>
+  </g>
+
+  <g class="credential gpg">
+    <text class="display trust accent" x="84" y="302">GPG:</text>
+    <text id="gpg-value" class="display trust muted" x="145" y="302">0x61A4095D8176A701</text>
+  </g>
+  <g class="credential ssh">
+    <text class="display trust accent" x="84" y="302">SSH:</text>
+    <text id="ssh-value" class="display trust muted" x="145" y="302">SHA256:fkH2BVZtGaT+h2JpYHq4cFbJPk+32nOCIJcbR/5T8RU</text>
+  </g>
+
+  <line class="rule" x1="84" y1="340" x2="1116" y2="340" stroke-width="1" />
+  <text class="folio muted" x="84" y="376">PELASGUS.XYZ</text>
+  <text class="folio muted" x="1116" y="376" text-anchor="end">READ / BUILD / VERIFY</text>
+</svg>
