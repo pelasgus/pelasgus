@@ -511,7 +511,6 @@
   
     <rect class="c0_0" x="84.0" y="26.0" width="14" height="14" rx="2.5" fill="var(--snake-level-0,#e8e3dc)"/>
   <rect class="c0_1" x="84.0" y="45.57692307692308" width="14" height="14" rx="2.5" fill="var(--snake-level-0,#e8e3dc)"/>
-  <rect class="c0_2" x="84.0" y="65.15384615384616" width="14" height="14" rx="2.5" fill="var(--snake-level-0,#e8e3dc)"/>
   <rect class="c1_0" x="103.57692307692308" y="26.0" width="14" height="14" rx="2.5" fill="var(--snake-level-0,#e8e3dc)"/>
   <rect class="c1_1" x="103.57692307692308" y="45.57692307692308" width="14" height="14" rx="2.5" fill="var(--snake-level-0,#e8e3dc)"/>
   <rect class="c1_2" x="103.57692307692308" y="65.15384615384616" width="14" height="14" rx="2.5" fill="var(--snake-level-0,#e8e3dc)"/>
@@ -875,6 +874,7 @@
   <rect class="c52_3" x="1102.0" y="84.73076923076923" width="14" height="14" rx="2.5" fill="var(--snake-level-1,#ded0e9)"/>
   <rect class="c52_4" x="1102.0" y="104.3076923076923" width="14" height="14" rx="2.5" fill="var(--snake-level-1,#ded0e9)"/>
   <rect class="c52_5" x="1102.0" y="123.88461538461539" width="14" height="14" rx="2.5" fill="var(--snake-level-1,#ded0e9)"/>
+  <rect class="c52_6" x="1102.0" y="143.46153846153845" width="14" height="14" rx="2.5" fill="var(--snake-level-0,#e8e3dc)"/>
   <text class="lab" x="84.0" y="14">nov</text>
   <text class="lab" x="142.73076923076923" y="14">dec</text>
   <text class="lab" x="221.03846153846155" y="14">jan</text>
